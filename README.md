@@ -9,7 +9,9 @@
 | Nhóm | [CẦN BẠN ĐIỀN] |
 | Thành viên | [CẦN BẠN ĐIỀN] |
 | Ngày thực hiện | [CẦN BẠN ĐIỀN] |
-| Repo cá nhân | Đặt tên trên GitHub: `Day02-2A202602825-PhamMinhCuong` |
+| Repo cá nhân | [Day02-2A202602825-PhamMinhCuong](https://github.com/mcnb2005/Day02-2A202602825-PhamMinhCuong) |
+| Tài khoản GitHub | mcnb2005 |
+| Quyền truy cập hiện tại | Riêng tư; người chấm cần được cấp quyền xem |
 
 ## Đề tài bản nháp
 

@@ -11,7 +11,7 @@
 | Ngày thực hiện | [CẦN BẠN ĐIỀN] |
 | Repo cá nhân | [Day02-2A202602825-PhamMinhCuong](https://github.com/mcnb2005/Day02-2A202602825-PhamMinhCuong) |
 | Tài khoản GitHub | mcnb2005 |
-| Quyền truy cập hiện tại | Riêng tư; người chấm cần được cấp quyền xem |
+| Quyền truy cập hiện tại | Công khai; người chấm có thể xem trực tiếp qua đường dẫn repo |
 
 ## Đề tài bản nháp
 

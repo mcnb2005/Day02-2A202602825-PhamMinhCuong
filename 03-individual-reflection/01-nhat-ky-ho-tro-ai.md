@@ -13,7 +13,7 @@
 | Research | Đọc và dẫn nguồn chính thức về Classroom, Tasks và Notion | Tự đối chiếu các nguồn và đánh giá mức phù hợp với bối cảnh của nhóm |
 | Problem Statement | Soạn v0/v1, metric đề xuất và boundary | Xác nhận vấn đề, đo baseline, thống nhất mục tiêu với nhóm |
 | Quyết định | Đề xuất Not Yet vì chưa đủ bằng chứng cho triển khai | Nhóm tự quyết định sau khi kiểm chứng và so sánh phương án |
-| GitHub | Tạo repo riêng tư `mcnb2005/Day02-2A202602825-PhamMinhCuong`; lưu và đẩy các file bài lên nhánh `main` | Kiểm tra người chấm có quyền xem và bổ sung nội dung còn thiếu trước khi nộp |
+| GitHub | Tạo repo `mcnb2005/Day02-2A202602825-PhamMinhCuong`; đẩy các file bài lên nhánh `main`; chuyển sang công khai theo yêu cầu của học viên | Bổ sung nội dung còn thiếu trước khi nộp đường dẫn repo |
 | Reflection | Tạo câu hỏi và bảng để học viên tự điền | Tự viết từ trải nghiệm, đóng góp và nhận định thật |
 
 ## Các giới hạn cần tự đánh giá

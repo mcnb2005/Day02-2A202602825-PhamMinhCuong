@@ -2,6 +2,17 @@
 
 > **Chưa có buổi thảo luận nhóm được ghi nhận.** Phần phân nhóm và shortlist dưới đây là đề xuất chuẩn bị; các bảng nhật ký để trống cho hoạt động thật. Không có điểm bình chọn hoặc phát biểu của thành viên được dựng lên.
 
+## Thông tin nhóm hiện có
+
+| Thông tin | Nội dung đã xác nhận |
+|---|---|
+| Chủ repo cá nhân | Phạm Minh Cương — 2A202602825 |
+| Tên/mã nhóm | Chưa được học viên cung cấp |
+| Danh sách thành viên | Chưa được học viên cung cấp |
+| Phân công và biên bản thảo luận | Chưa có dữ liệu được cung cấp |
+
+Việc chưa có dữ liệu không đồng nghĩa học viên chưa có nhóm hoặc chưa thảo luận. Cần bổ sung theo thực tế, không tự suy ra vai trò nhóm trưởng hay tên các thành viên.
+
 ## 1. Ghi nhận candidates
 
 Nhóm 3–4 người, mỗi người trình bày top 3; ghi khoảng 9–12 candidates trước khi gom trùng.

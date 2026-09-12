@@ -25,7 +25,7 @@ Không mặc định Workflow tốt hơn Rule. Nếu template/rule đạt nhu c�
 |---|---|---|
 | Actor và workflow đã được quan sát thật? | Not Yet | Mới là bối cảnh và quy trình đề xuất |
 | Có baseline và phép đo? | Not Yet | Đã có cách đo, chưa có dữ liệu |
-| Có nguồn đầu vào được phép dùng? | Not Yet | Người học chưa cung cấp bộ mẫu |
+| Có nguồn đầu vào được phép dùng? | Có một mẫu, chưa đủ pilot | Đã rà tài liệu Day02 công khai trong [DOC-01](05-kiem-chung-tu-tai-lieu.md); chưa có bộ mẫu đa dạng và người kiểm tra độc lập |
 | Hậu quả khi AI sai có kiểm soát được? | Not Yet | Đã đề xuất review và fallback, chưa thử độ hiệu quả |
 | Có người review và owner? | Not Yet | Vai trò được mô tả nhưng chưa có người nhận |
 | Đã so sánh với cách không AI? | Not Yet | Đã research; chưa thử trên cùng loại công việc |

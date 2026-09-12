@@ -5,8 +5,9 @@
 | Nội dung | Trạng thái |
 |---|---|
 | Đọc tài liệu chính thức về ba hướng giải pháp | Đã thực hiện; nguồn ở mục 4, truy cập ngày 12/09/2026 |
-| Phỏng vấn/khảo sát học viên | Chưa thực hiện |
-| Đo thời gian xử lý một bài tập | Chưa thực hiện |
+| Rà checklist trên một đề bài thật | Trợ lý đã tự đối chiếu mẫu DOC-01; xem [bản đối chiếu](05-kiem-chung-tu-tai-lieu.md); chưa có kiểm tra độc lập |
+| Phỏng vấn/khảo sát học viên | Chưa có kết quả được học viên cung cấp |
+| Đo thời gian xử lý một bài tập | Chưa có số đo được cung cấp |
 | Thử template không AI và Workflow có AI | Chưa thực hiện |
 | Xác nhận lựa chọn của nhóm | Chưa thực hiện |
 
@@ -81,4 +82,4 @@ Một lượt bắt đầu khi mở nguồn của một bài và kết thúc khi
 
 Chuẩn đối chiếu là bảng đáp án do người kiểm tra đọc nguồn và xác nhận. Với nguồn chưa rõ, đáp án đúng là đánh dấu chưa xác định; không ép có ngày/giờ hoặc yêu cầu mà nguồn không nêu.
 
-**Kết quả hiện tại: chưa có dữ liệu.** Sau kiểm chứng, cập nhật cả Problem Statement và quyết định, kể cả khi kết quả phản bác đề xuất AI.
+**Kết quả hiện tại:** có research và một lần tự đối chiếu tài liệu DOC-01; chưa có dữ liệu phỏng vấn hoặc so sánh thời gian. Sau kiểm chứng với người dùng, cập nhật cả Problem Statement và quyết định, kể cả khi kết quả phản bác đề xuất AI.

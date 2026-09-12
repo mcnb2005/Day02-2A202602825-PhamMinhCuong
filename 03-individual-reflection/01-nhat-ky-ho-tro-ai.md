@@ -11,10 +11,11 @@
 | Problem Cards | Soạn 3 card cho các vấn đề đề xuất | Sửa actor, workflow, impact và lý do chọn theo trải nghiệm |
 | Workflow | Viết sơ đồ trước/sau bằng văn bản và Mermaid | Kiểm từng bước, bổ sung thời gian thực tế |
 | Research | Đọc và dẫn nguồn chính thức về Classroom, Tasks và Notion | Tự đối chiếu các nguồn và đánh giá mức phù hợp với bối cảnh của nhóm |
+| Đối chiếu tài liệu | Lập và tự rà checklist DOC-01 trên README và worksheet của đề bài thật | Học viên kiểm tra độc lập; bổ sung kiểm chứng với người dùng |
 | Problem Statement | Soạn v0/v1, metric đề xuất và boundary | Xác nhận vấn đề, đo baseline, thống nhất mục tiêu với nhóm |
 | Quyết định | Đề xuất Not Yet vì chưa đủ bằng chứng cho triển khai | Nhóm tự quyết định sau khi kiểm chứng và so sánh phương án |
 | GitHub | Tạo repo `mcnb2005/Day02-2A202602825-PhamMinhCuong`; đẩy các file bài lên nhánh `main`; chuyển sang công khai theo yêu cầu của học viên | Bổ sung nội dung còn thiếu trước khi nộp đường dẫn repo |
-| Reflection | Tạo câu hỏi và bảng để học viên tự điền | Tự viết từ trải nghiệm, đóng góp và nhận định thật |
+| Reflection | Điền sự kiện và cách dùng AI đã ghi nhận; giữ câu hỏi về nhận định cá nhân | Tự viết từ trải nghiệm, đóng góp và nhận định thật |
 
 ## Các giới hạn cần tự đánh giá
 

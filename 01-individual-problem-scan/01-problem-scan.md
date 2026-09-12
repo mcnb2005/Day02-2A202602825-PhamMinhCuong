@@ -42,13 +42,15 @@ Trong trao đổi chuẩn bị bài này, Phạm Minh Cương đã yêu cầu gi
 
 **Lựa chọn sau khi tự scan:** [CẦN BẠN ĐIỀN — có thể đổi top 3].
 
-## Một quan sát thật để bắt đầu
+## Một trường hợp đã ghi nhận
 
-Điền một trường hợp trước, rồi mở rộng sang các dòng khác:
+Đây là mô tả của trợ lý về diễn biến quan sát được trong cuộc trao đổi, chưa phải lời tự đánh giá của học viên.
 
-- Lần gần nhất xảy ra: [CẦN BẠN ĐIỀN].
-- Tôi hoặc người tôi quan sát đang muốn hoàn thành việc gì: [CẦN BẠN ĐIỀN].
-- Các bước thực tế đã làm: [CẦN BẠN ĐIỀN].
-- Bước khó hoặc mất thời gian nhất: [CẦN BẠN ĐIỀN].
-- Dấu vết có thể kiểm tra lại: [CẦN BẠN ĐIỀN].
-- Thời gian/tần suất: [CẦN BẠN ĐIỀN; ghi rõ đo trực tiếp hay nhớ lại].
+- **Tình huống:** chuẩn bị bài Day02 từ repo do học viên cung cấp.
+- **Người thực hiện:** Phạm Minh Cương, mã học viên 2A202602825.
+- **Mục tiêu thể hiện trong yêu cầu:** hiểu cần làm gì, chuẩn bị các file và đưa bài lên GitHub.
+- **Các bước đã quan sát:** cung cấp link đề bài → nhờ giải thích và chuẩn bị bản nháp → cung cấp họ tên/mã học viên → hỏi về fork → yêu cầu tạo repo và tải file → yêu cầu chuyển repo sang công khai → yêu cầu bổ sung nội dung còn thiếu.
+- **Kết quả xác minh được:** đã có [repo công khai chứa bản nháp](https://github.com/mcnb2005/Day02-2A202602825-PhamMinhCuong); chưa có dữ liệu để nói bài đã hoàn tất hoặc đã nộp cho lớp.
+- **Điểm chưa rõ:** chưa biết bước nào học viên tự đánh giá là khó nhất; chưa đo thời gian và tần suất; chưa có tình huống trễ hoặc nhầm deadline được báo cáo.
+
+Trường hợp này gợi ý cần phân biệt khó khăn hiểu đề với khó khăn thao tác GitHub. Cần học viên xác nhận vấn đề chính trước khi giữ hoặc đổi đề tài.

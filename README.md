@@ -6,8 +6,8 @@
 |---|---|
 | Họ và tên | Phạm Minh Cương |
 | Mã học viên | 2A202602825 |
-| Nhóm | [CẦN BẠN ĐIỀN] |
-| Thành viên | [CẦN BẠN ĐIỀN] |
+| Nhóm | Chưa được học viên cung cấp |
+| Thành viên | Đã xác nhận chủ repo: Phạm Minh Cương; chưa có danh sách nhóm |
 | Ngày thực hiện | [CẦN BẠN ĐIỀN] |
 | Repo cá nhân | [Day02-2A202602825-PhamMinhCuong](https://github.com/mcnb2005/Day02-2A202602825-PhamMinhCuong) |
 | Tài khoản GitHub | mcnb2005 |
@@ -35,6 +35,7 @@ Hướng đề xuất là **Workflow có AI trích xuất bản nháp, học vi�
 - [Kiểm chứng và nghiên cứu giải pháp](02-group-problem-statement/02-validation-and-research.md)
 - [Workflow và Problem Statement v0/v1](02-group-problem-statement/03-problem-statement.md)
 - [So sánh giải pháp và quyết định](02-group-problem-statement/04-solution-and-decision.md)
+- [Đối chiếu checklist với tài liệu đề bài thật](02-group-problem-statement/05-kiem-chung-tu-tai-lieu.md)
 
 ### 03 — Reflection cá nhân
 

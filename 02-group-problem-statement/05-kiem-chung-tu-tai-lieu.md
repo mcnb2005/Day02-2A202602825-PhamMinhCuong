@@ -1,44 +1,36 @@
-# 02.5 — Đối chiếu checklist với tài liệu đề bài thật
+# 02.5 — Kiểm chứng từ ảnh và tài liệu: FreshBox
 
-## Phạm vi thực hiện
+## Phương pháp và mức bằng chứng
 
-**Mẫu DOC-01:** chính bài Day02 đang chuẩn bị. Ngày đối chiếu: 12/09/2026.
+Trợ lý đã đọc ba ảnh học viên cung cấp, đối chiếu nội dung với yêu cầu bài lab và các nguồn research ngày 12/09/2026. Học viên xác nhận đây là ý tưởng nhóm. Chưa có người kiểm tra độc lập hoặc thử nghiệm thực địa được cung cấp.
 
-Trợ lý AI đã đọc hai tài liệu công khai, lập bảng yêu cầu dưới đây và tự đối chiếu lại các mục tương ứng. Đây là một lần rà soát tài liệu; chưa có người kiểm tra độc lập, phỏng vấn học viên hoặc phép đo so sánh thời gian.
+[Ảnh 1 lưu trong repo](../assets/freshbox-y-tuong-nhom.png). Ảnh 2/3 được đọc trong cuộc trao đổi; thông tin sản phẩm được chép vào bảng dưới, không đưa các thanh tab và giao diện máy tính ngoài sản phẩm lên repo.
 
-Nguồn:
+## Đối chiếu ý tưởng với yêu cầu có thể kiểm tra
 
-- **S1:** [README của đề bài](https://github.com/VinUni-AI20k/K4A-Day02-AI-Product-Labs/blob/main/README.md).
-- **S2:** [Worksheet của đề bài](https://github.com/VinUni-AI20k/K4A-Day02-AI-Product-Labs/blob/main/01-worksheet.md).
-
-Các link trỏ đến nhánh `main`, nội dung có thể thay đổi sau ngày đối chiếu.
-
-## Checklist trích xuất và đối chiếu
-
-| Trường cần biết | Nội dung xác định từ tài liệu | Vị trí nguồn | Trạng thái |
+| Nội dung trong tư liệu | Kết luận có căn cứ | Phần còn chưa biết | Xử lý trong thiết kế |
 |---|---|---|---|
-| Tên bài | Day02 — Tìm đúng bài toán cho AI | S1, tiêu đề | Có căn cứ |
-| Hình thức bài nộp | Repo cá nhân gồm README và ba phần cá nhân/nhóm/reflection | S1, cấu trúc repo | Có căn cứ |
-| Phần khảo sát cá nhân | Ít nhất 5 vấn đề, top 3 cards và workflow trước/sau | S1, cấu trúc repo; S2, output | Có căn cứ |
-| Phần làm chung | Nhóm 3–4 người, mỗi người lưu bản nhóm cuối trong repo cá nhân | S1, cấu trúc repo | Có căn cứ |
-| Kiểm chứng nhanh | Phỏng vấn 2–3 người hoặc survey/poll 5–10 người | S2, Phase 4.1 | Có căn cứ |
-| Nghiên cứu giải pháp | Ít nhất 2–3 công cụ/giải pháp/pattern và 1–2 nguồn có link | S2, Phase 4.2 | Có căn cứ |
-| Phân tích và quyết định | Workflow, Problem Statement v0/v1, so sánh phương án, Go/Not Yet/No-Go | S2, Phase 5–6 | Có căn cứ |
-| Reflection | Học viên tự viết trải nghiệm, đóng góp, cách dùng AI và điều muốn thay đổi | S2, quy ước AI và Phase 7 | Có căn cứ |
-| Ngày, giờ và múi giờ hạn nộp | Chưa xác định từ hai tài liệu đã đọc | S1 và S2 | Cần hỏi người phụ trách |
-| Form/LMS/kênh nhận đường dẫn bài | Chưa xác định từ hai tài liệu đã đọc | S1 và S2 | Cần hỏi người phụ trách |
+| Khung hình hộp, mở bốn bên | Đây là hình dạng nhóm muốn khảo sát | Chất liệu, tải, độ sâu, độ vừa tủ và luồng khí | Chỉ gọi là concept; đo vật lý trước khi chốt |
+| Cảm biến ghi lúc đặt đồ vào | Có yêu cầu ghi sự kiện theo thời gian | Cảm biến cụ thể, nhận đúng món, nhiễu và sai số đồng hồ | Một món/vùng ở MVP; người dùng xác nhận ID |
+| Thông tin/nhắc qua điện thoại | Nhóm muốn tra cứu và được nhắc từ xa | Giao thức, đường truyền khi đóng cửa tủ, trạng thái nhận | Thử kênh thông báo; hiển thị lần đồng bộ cuối |
+| Các cỡ 26/38/50 cm trên ảnh 2 | Ba lựa chọn chiều ngang được minh họa | Chưa có dung sai hay số đo tủ; chưa biết chiều sâu | Không công bố tương thích mọi tủ |
+| Chiều cao kéo lên/xuống | Có yêu cầu cơ khí điều chỉnh | Biên độ, khóa, độ bền và vệ sinh | Kiểm bằng mô hình hình dáng trước |
+| Pin ở bốn trụ trong ảnh 3 | Bốn góc là vị trí nguồn được đề xuất | Loại pin, mạch quản lý, đấu nối, độ kín, nhiệt độ và thời lượng | Không coi ảnh là sơ đồ điện; cần thiết kế và thử nguồn |
+| Hình quảng bá gợi ý giữ tươi/giảm lãng phí | Là mục tiêu mong muốn của concept | Chưa có dữ liệu chứng minh | Bài chỉ tuyên bố theo dõi và nhắc kiểm tra |
+| Hình/nhãn minh họa có tên sản phẩm và thời gian | Là ví dụ hình ảnh | Không chứng minh AI/cảm biến nhận đúng tên hoặc mốc | Không đưa thành kết quả độ chính xác |
 
-Không dùng thời lượng lab 4 tiếng làm hạn nộp. Việc có repo công khai cũng không chứng minh đường dẫn đã được gửi đến nơi nhận bài.
+## Đối chiếu nghiên cứu và tác động lên bài
 
-## Kết quả và tác động tới thiết kế
+1. **Tính năng tương tự đã tồn tại:** NoWaste và Samsung có cách quản lý danh sách thực phẩm. FreshBox phải chứng minh lợi ích của phụ kiện và cách ghi nhận, không chỉ có màn hình đẹp.
+2. **An toàn thực phẩm phụ thuộc nhiều yếu tố:** nguồn FDA/FoodSafety.gov khiến phạm vi được sửa thành ghi lịch sử và nhắc kiểm tra.
+3. **Theo dõi tương tác vật phẩm là một bài toán riêng:** nghiên cứu CloudFridge là bằng chứng về hướng nghiên cứu; không chuyển các chỉ số của họ sang FreshBox.
 
-- Các yêu cầu cấu trúc có thể chuyển thành checklist với nguồn kiểm tra cụ thể.
-- Hai trường về hạn nộp và kênh nhận bài vẫn chưa xác định. Workflow phải cho phép giữ chúng ở trạng thái chờ xác nhận.
-- Đọc tài liệu có thể hoàn thành nhưng chuẩn bị nộp bài vẫn chưa hoàn tất. Cần theo dõi hai trạng thái này riêng để không báo hoàn thành sai.
-- Có bảng yêu cầu chưa chứng minh AI hiệu quả hơn mẫu thủ công. Chưa có số đo thời gian, dữ liệu lỗi của người dùng hoặc kết quả pilot.
+Nguồn và giới hạn được ghi tại [research](02-validation-and-research.md).
 
-## Giới hạn và bước tiếp theo
+## Tóm tắt kết quả
 
-Mẫu này chỉ thể hiện khả năng rà soát một đề bài thật. Nó không xác nhận năm vấn đề cá nhân, hoạt động nhóm hoặc lợi ích của sản phẩm. Giữ quyết định **Not Yet** cho triển khai.
+- **Đã có:** một concept nhóm với ba hình; mô tả yêu cầu; phân tích nguồn; các trường hợp cần kiểm tra.
+- **Chưa có:** bằng chứng người dùng gặp khó khăn thường xuyên, nhóm thành viên đầy đủ, phần cứng, đo baseline, so sánh không AI/AI, thử pin và phản hồi hộ gia đình.
+- **Quyết định:** giữ Not Yet cho triển khai; thực hiện validation và pilot theo kế hoạch.
 
-Học viên cần đối chiếu lại checklist; hỏi người phụ trách về hạn/kênh nhận bài; bổ sung trải nghiệm và kiểm chứng với người học khác trước khi kết luận về khó khăn và tác động.
+Các kết quả trên là rà soát tài liệu của trợ lý. Không ghi “đã phỏng vấn 3 người”, “độ chính xác 95%” hoặc “giảm lãng phí 30%” khi chưa có phép đo.

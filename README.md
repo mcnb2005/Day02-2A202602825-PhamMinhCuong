@@ -1,72 +1,61 @@
-# Day 02 — Tìm đúng bài toán cho AI
+# FreshBox — Ghi nhớ thực phẩm trong tủ lạnh
 
-> **Trạng thái: bản nháp cần cá nhân hóa và kiểm chứng.** Các chỗ `[CẦN BẠN ĐIỀN]` cần thông tin thật của học viên. Không có dữ liệu phỏng vấn, khảo sát hoặc kết quả thảo luận nhóm nào được giả lập thành bằng chứng.
+**Day 02 · Tìm đúng bài toán cho AI**
+
+FreshBox là ý tưởng của nhóm về một khung đặt trong tủ lạnh, mở bốn bên, có cảm biến ghi nhận lúc đặt thực phẩm vào và gửi thông tin/nhắc nhở đến điện thoại. Bản phân tích này được cập nhật theo **ba ảnh ý tưởng do Phạm Minh Cương cung cấp**.
 
 | Thông tin | Nội dung |
 |---|---|
-| Họ và tên | Phạm Minh Cương |
+| Học viên | Phạm Minh Cương |
 | Mã học viên | 2A202602825 |
-| Nhóm | Chưa được học viên cung cấp |
-| Thành viên | Đã xác nhận chủ repo: Phạm Minh Cương; chưa có danh sách nhóm |
-| Ngày thực hiện | [CẦN BẠN ĐIỀN] |
-| Repo cá nhân | [Day02-2A202602825-PhamMinhCuong](https://github.com/mcnb2005/Day02-2A202602825-PhamMinhCuong) |
-| Tài khoản GitHub | mcnb2005 |
-| Quyền truy cập hiện tại | Công khai; người chấm có thể xem trực tiếp qua đường dẫn repo |
+| Đề tài nhóm | FreshBox — khung theo dõi thực phẩm trong tủ lạnh |
+| Tên nhóm và các thành viên khác | Chưa được cung cấp; FreshBox là tên sản phẩm, không tự coi là tên nhóm |
+| Ngày cập nhật bản phân tích | 12/09/2026 |
+| Repo | [Day02-2A202602825-PhamMinhCuong](https://github.com/mcnb2005/Day02-2A202602825-PhamMinhCuong) |
+| Quyền truy cập | Công khai |
 
-## Đề tài bản nháp
+![Sơ đồ ý tưởng FreshBox](assets/freshbox-so-do.svg)
 
-**Giúp học viên chuyển thông báo bài tập từ nhiều nguồn thành checklist có dẫn nguồn và hạn nộp đã xác nhận.**
+## Vấn đề cần kiểm chứng
 
-Bối cảnh học tập được chọn tạm để có một bản phân tích cụ thể. Bạn cần xác nhận mình thực sự gặp vấn đề này hoặc thay bằng vấn đề phù hợp hơn.
+Người dùng tủ lạnh có thể quên thời điểm cất hoặc mở một món thực phẩm, khiến việc kiểm tra và lựa chọn món cần chú ý phụ thuộc vào trí nhớ. Nhóm muốn giảm công ghi chép và giúp người dùng nhìn lại lịch sử lưu trữ trên điện thoại.
 
-Hướng đề xuất là **Workflow có AI trích xuất bản nháp, học viên kiểm tra trước khi lưu**. Quyết định hiện tại là **Not Yet** cho triển khai vì chưa có phỏng vấn, số đo hiện trạng và thử nghiệm so với cách không dùng AI. Đây là đánh giá của bản nháp, chưa phải quyết định đã được nhóm thông qua.
+**Ảnh xác nhận ý tưởng của nhóm, chưa xác nhận tần suất khó khăn, hiệu quả thiết bị hoặc kết quả phỏng vấn.** Ngày cất vào tủ, ngày mở bao bì và thông tin hạn dùng là những dữ liệu khác nhau. FreshBox theo dõi và nhắc kiểm tra; không kết luận thực phẩm còn an toàn để ăn chỉ từ thời gian hoặc hình ảnh.
 
-## Nội dung bài
+## Hướng đề xuất
 
-### 01 — Cá nhân khảo sát vấn đề
+- **MVP:** cảm biến + định danh vật phẩm do người dùng xác nhận + lưu mốc thời gian + quy tắc nhắc việc. Mức chọn là **Rule/IoT**, chưa cần AI cho chức năng cốt lõi.
+- **AI mở rộng:** thử OCR/nhận dạng nhãn để giảm thao tác nhập; luôn cho người dùng xác nhận hoặc sửa.
+- **Quyết định phân tích:** **Not Yet cho triển khai sử dụng thực tế**. Đã có concept và research; còn thiếu kiểm chứng nhu cầu, baseline, thử cảm biến và thiết kế nguồn điện. Đây là đề xuất của bản phân tích, chưa thay cho quyết định nhóm.
 
-- [Danh sách vấn đề](01-individual-problem-scan/01-problem-scan.md)
-- [Top 3 Problem Cards](01-individual-problem-scan/02-top-3-problem-cards.md)
-- [Quy trình trước và sau cho top 3](01-individual-problem-scan/03-workflows.md)
+## Hồ sơ bài nộp
 
-### 02 — Bản phân tích nhóm
+| Phần | Tài liệu |
+|---|---|
+| 01 — Cá nhân | [Scan 8 vấn đề](01-individual-problem-scan/01-problem-scan.md) · [Top 3 Cards](01-individual-problem-scan/02-top-3-problem-cards.md) · [Workflow trước/sau](01-individual-problem-scan/03-workflows.md) |
+| 02 — Nhóm | [Ý tưởng và hội tụ](02-group-problem-statement/01-convergence.md) · [Research và validation](02-group-problem-statement/02-validation-and-research.md) · [Problem Statement v0/v1](02-group-problem-statement/03-problem-statement.md) |
+| 02 — Quyết định | [Rule/Workflow/Agent và pilot](02-group-problem-statement/04-solution-and-decision.md) · [Đối chiếu ảnh và nguồn](02-group-problem-statement/05-kiem-chung-tu-tai-lieu.md) · [Thiết kế FreshBox](02-group-problem-statement/06-freshbox-concept.md) |
+| 03 — Cá nhân | [Dữ kiện và câu hỏi reflection](03-individual-reflection/README.md) · [Nhật ký hỗ trợ AI](03-individual-reflection/01-nhat-ky-ho-tro-ai.md) |
 
-- [Quá trình hội tụ và chọn vấn đề](02-group-problem-statement/01-convergence.md)
-- [Kiểm chứng và nghiên cứu giải pháp](02-group-problem-statement/02-validation-and-research.md)
-- [Workflow và Problem Statement v0/v1](02-group-problem-statement/03-problem-statement.md)
-- [So sánh giải pháp và quyết định](02-group-problem-statement/04-solution-and-decision.md)
-- [Đối chiếu checklist với tài liệu đề bài thật](02-group-problem-statement/05-kiem-chung-tu-tai-lieu.md)
+## Những chi tiết từ ảnh đã đưa vào bài
 
-### 03 — Reflection cá nhân
+Khung mở bốn bên; thông báo qua điện thoại; ba lựa chọn chiều ngang minh họa **26 / 38 / 50 cm**; chiều cao có thể điều chỉnh; ý tưởng bố trí pin trong **bốn trụ góc**. Kích thước, kết cấu và pin mới là concept, chưa phải thông số chế tạo đã thử nghiệm.
 
-- [Câu hỏi và bảng để tự viết reflection](03-individual-reflection/README.md)
-- [Nhật ký hỗ trợ AI đã thực hiện](03-individual-reflection/01-nhat-ky-ho-tro-ai.md)
+Xem [ảnh ý tưởng gốc](assets/freshbox-y-tuong-nhom.png). Các lời nhắc tạo ảnh và khẩu hiệu trong ảnh được dùng làm tư liệu ý tưởng, không coi là kết quả kiểm chứng sản phẩm.
 
-## Cách đọc trạng thái trong bài
+## Trạng thái hoàn thiện
 
-- **Thông tin có nguồn:** nội dung đối chiếu được với tài liệu hoặc bằng chứng được liên kết.
-- **Đề xuất:** hướng phân tích để học viên và nhóm xem xét, chưa phải kết luận của nhóm.
-- **Giả định/chưa đo:** chưa có dữ liệu thực tế; không được trình bày như kết quả đã quan sát.
-- **Cần bạn điền:** thông tin cá nhân, trải nghiệm, thảo luận hoặc kết quả kiểm chứng chỉ người thực hiện mới xác nhận được.
+- [x] Xác nhận tên, mã học viên và đề tài nhóm qua thông tin học viên cung cấp.
+- [x] Chuyển các phần phân tích sang FreshBox; bổ sung sơ đồ, research, metric và kế hoạch pilot.
+- [x] Phân biệt nội dung có nguồn, giả định thiết kế và dữ liệu chưa đo.
+- [ ] Điền tên nhóm, danh sách thành viên và đóng góp trực tiếp của từng người.
+- [ ] Học viên xác nhận ít nhất 5 vấn đề từ trải nghiệm thật; tự trình bày và challenge.
+- [ ] Bổ sung phỏng vấn/khảo sát, baseline và kết quả thử nghiệm; chưa có trong dữ liệu được cung cấp.
+- [ ] Nhóm xác nhận lựa chọn cuối và học viên tự viết bài học/reflection.
+- [ ] Xác nhận hạn nộp, nơi nhận bài và gửi đường dẫn repo theo hướng dẫn lớp.
 
-## Trước khi nộp
+## Đề bài và nguồn
 
-- [x] Điền họ tên và mã học viên.
-- [ ] Điền thông tin nhóm và ngày thực hiện.
-- [ ] Xác nhận ít nhất 5 vấn đề là quan sát thật; sửa hoặc bỏ gợi ý không phù hợp.
-- [ ] Hoàn thiện 3 Problem Cards cùng workflow trước/sau.
-- [ ] Ghi lại pitch, challenge và quá trình nhóm chọn một vấn đề sau khi thảo luận thật.
-- [ ] Kiểm chứng với người dùng; ghi cả tín hiệu xác nhận và phản bác.
-- [ ] Đối chiếu các nguồn nghiên cứu và ghi bài học cho vấn đề của nhóm.
-- [ ] Đo hiện trạng; phân biệt số đã đo với mục tiêu mong muốn.
-- [ ] Cập nhật Problem Statement v0/v1, so sánh phương án và quyết định của nhóm.
-- [ ] Tự viết reflection từ trải nghiệm và đóng góp thật.
-- [ ] Mỗi thành viên chép bản nhóm cuối vào repo cá nhân và kiểm tra các liên kết.
+[README/rubric](https://github.com/VinUni-AI20k/K4A-Day02-AI-Product-Labs#readme) · [Worksheet](https://github.com/VinUni-AI20k/K4A-Day02-AI-Product-Labs/blob/main/01-worksheet.md) · [Danh mục nguồn FreshBox](02-group-problem-statement/02-validation-and-research.md).
 
-## Tài liệu đề bài
-
-- [README và rubric](https://github.com/VinUni-AI20k/K4A-Day02-AI-Product-Labs#readme)
-- [Worksheet](https://github.com/VinUni-AI20k/K4A-Day02-AI-Product-Labs/blob/main/01-worksheet.md)
-- [Bài mẫu](https://github.com/VinUni-AI20k/K4A-Day02-AI-Product-Labs/blob/main/02-deliverable-example.md)
-
-Theo worksheet, AI có thể hỗ trợ phản biện, nghiên cứu và vẽ workflow. Pitch, challenge và reflection phải xuất phát từ hiểu biết, trải nghiệm thật của học viên.
+Bản đề tài học tập cũ được thay bằng FreshBox theo thông tin mới của học viên; lịch sử thay đổi vẫn được lưu trong Git.

@@ -1,85 +1,78 @@
-# 01.3 — Draft workflow trước và sau
+# 01.3 — Workflow trước và sau: FreshBox
 
-**Học viên:** Phạm Minh Cương — **Mã học viên:** 2A202602825.
+**Phạm Minh Cương — 2A202602825**
 
-> Các sơ đồ là thiết kế để xác nhận với người dùng. Thời gian đều chưa được đo; không dùng số giả định để báo cáo hiệu quả. Đầu ra luôn phải được con người xác nhận trước khi sử dụng.
+Đây là workflow giả thuyết để quan sát và thử nghiệm. Chưa có thời gian thực đo.
 
-## Card 1 — Checklist yêu cầu bài tập
+## Card 1 — Ghi nhớ lúc cất
 
-**Trước — 5 bước:**
-
-```text
-Học viên mở thông báo và đề bài
-→ Đọc, đối chiếu yêu cầu và các lần cập nhật [điểm nghẽn giả định]
-→ Chép thành checklist có nguồn
-→ Xác nhận hạn nộp/nội dung chưa rõ với nguồn chính thức hoặc người phụ trách
-→ Lưu checklist và nhập lịch nếu đủ thông tin
-```
-
-**Sau — 4 bước chính, có nhánh xử lý ngoại lệ:**
+**Trước:**
 
 ```text
-Học viên chọn nguồn hiện hành, dán nội dung và ghi link/phiên bản
-→ AI lập checklist nháp, gắn nguồn cho từng trường, đánh dấu thiếu/mâu thuẫn
-→ Học viên đối chiếu bản nháp với nguồn [điểm kiểm tra bắt buộc]
-   ├─ Đủ và đúng → Học viên lưu checklist, nhập lịch đã xác nhận
-   └─ Thiếu/mâu thuẫn → Hỏi người phụ trách, cập nhật nguồn, kiểm tra lại
-
-Fallback: bản nháp sai hoặc sửa quá lâu → dùng mẫu checklist thủ công.
+Cất hộp → Ghi nhãn hoặc ghi nhớ
+→ Cần kiểm tra → Tìm hộp, đọc nhãn/hỏi lại [điểm nghẽn]
+→ Quyết định xử lý → Cập nhật ghi chú nếu có
 ```
 
-AI nằm ở bước đọc và cấu trúc. Việc chờ phản hồi và phần nhập lịch vẫn được tính khi đánh giá thời gian. Bài không coi "AI tạo xong bản nháp" là hoàn thành workflow.
-
-## Card 2 — Tổng hợp nhiệm vụ sau họp
-
-**Trước — 6 bước:**
+**Sau, MVP một vật phẩm trong một vùng theo dõi:**
 
 ```text
-Gom ghi chú → Đọc tìm cam kết [điểm nghẽn giả định]
-→ Ghi nhiệm vụ → Hỏi chỗ thiếu → Thành viên xác nhận → Lưu bảng thống nhất
+Đặt hộp → Cảm biến tạo sự kiện dự kiến và ghi thời điểm
+→ Người dùng chọn/xác nhận ID món và lịch sử liên quan
+→ Lưu bản ghi + lịch nhắc do người dùng xác nhận
+→ Nhận nhắc kiểm tra → Xem thông tin và hướng dẫn phù hợp
+→ Xác nhận đã lấy/đã dùng/đã bỏ hoặc tiếp tục theo dõi
 ```
 
-**Sau — ưu tiên mẫu ghi họp trực tiếp:**
+Fallback: sự kiện thiếu hoặc mơ hồ → nhập tay; không nhận diện được món → giữ “chờ xác nhận”. Mốc “đặt vào” chỉ là quan sát của thiết bị; người dùng có thể cần bổ sung ngày nấu/mở trước đó.
+
+## Card 2 — Theo dõi ngày mở
+
+**Trước:**
 
 ```text
-Nhóm điền bảng việc/người/hạn/đầu ra trong cuộc họp
-→ Thành viên xác nhận từng dòng
-→ Nhóm trưởng lưu bản thống nhất
-
-Nếu chỉ có ghi chú tự do:
-Người tổng hợp cung cấp ghi chú
-→ AI đề xuất bảng nhiệm vụ có đoạn nguồn
-→ Người tổng hợp sửa → Thành viên xác nhận → Lưu bảng
-
-Fallback: thiếu nguồn hoặc hiểu sai cam kết → hỏi lại; không tự giao việc.
+Mua và cất chai → Mở và dùng một phần → Đặt lại
+→ Lần sau đọc hướng dẫn → Cố nhớ đã mở lúc nào [điểm nghẽn]
 ```
 
-## Card 3 — Tìm thông tin đã có
-
-**Trước — 5 bước:**
+**Sau:**
 
 ```text
-Xác định câu hỏi → Tìm từ khóa → Đọc nhiều kết quả [điểm nghẽn giả định]
-→ Kiểm tra nguồn/phiên bản → Dùng câu trả lời hoặc hỏi người phụ trách
+Chọn hồ sơ chai → Người dùng bấm “Đã mở” và xác nhận thời điểm
+→ Lưu ngày mở riêng với ngày cất và thông tin nhãn
+→ Rule nhắc theo mốc đã được người dùng chọn
+→ Lấy/đặt lại vẫn dùng hồ sơ cũ
 ```
 
-**Sau — dùng FAQ trước, AI là nhánh bổ sung:**
+Fallback: không nhớ thời điểm mở → ghi “chưa rõ”, không tự lấy ngày hiện tại để thay thế. Xác nhận thay món mới mới được tạo hồ sơ mới.
+
+## Card 3 — Giảm công cập nhật danh sách
+
+**Trước:**
 
 ```text
-Học viên tra FAQ/mục lục
-├─ Có câu trả lời → Mở nguồn kiểm tra → Sử dụng
-└─ Chưa có → AI tìm trong tập tài liệu được cung cấp, đưa đoạn liên quan và nguồn
-             → Học viên kiểm tra nguồn/phiên bản
-               ├─ Phù hợp → Sử dụng
-               └─ Thiếu hoặc mâu thuẫn → Hỏi người phụ trách
-
-Fallback: kết quả tìm kiếm không đáng tin → tra thủ công hoặc hỏi trực tiếp.
+Mở app → Tạo tên món → Nhập mốc → Lưu
+→ Lấy món → Tìm mục tương ứng → Sửa trạng thái [công lặp lại]
 ```
 
-## Bảng cần đo để sửa cả ba workflow
+**Sau:**
 
-| Card | Thời gian từng bước hiện tại | Thời gian review ở phương án sau | Thời gian chờ phản hồi | Lỗi hoặc việc phải làm lại |
-|---|---|---|---|---|
-| 1 | [CHƯA ĐO] | [CHƯA ĐO] | [CHƯA ĐO] | [CHƯA ĐO] |
-| 2 | [CHƯA ĐO] | [CHƯA ĐO] | [CHƯA ĐO] | [CHƯA ĐO] |
-| 3 | [CHƯA ĐO] | [CHƯA ĐO] | [CHƯA ĐO] | [CHƯA ĐO] |
+```text
+Cảm biến phát hiện thay đổi → Gợi ý sự kiện
+→ Người dùng xác nhận thêm/lấy/đặt lại/thay món
+→ Cập nhật danh sách và lịch nhắc
+→ Sự kiện không rõ → Chọn thủ công trước khi sửa lịch sử
+```
+
+AI OCR là nhánh thử nghiệm thêm khi đặt món: người dùng chụp nhãn → AI gợi ý tên/nội dung nhãn → người dùng kiểm tra. Nhánh này không cần thiết để MVP ghi giờ hoạt động.
+
+## Trường hợp phải kiểm tra
+
+| Tình huống | Cách thiết kế xử lý |
+|---|---|
+| Hai món vào cùng lúc | Báo cần xác nhận; không tự chia một sự kiện thành hai hồ sơ chắc chắn |
+| Lấy rồi đặt lại cùng món | Giữ mốc gốc, thêm sự kiện; không làm mới thời gian đã lưu |
+| Thay bằng món khác cùng trọng lượng | Người dùng xác nhận; không coi trọng lượng là định danh |
+| Mất mạng | Lưu sự kiện cục bộ nếu phần cứng hỗ trợ; hiển thị lần đồng bộ cuối; không hứa đã nhận nhắc trên điện thoại |
+| Mất nguồn/đồng hồ không đáng tin | Đánh dấu khoảng dữ liệu chưa biết; không dựng lại thời gian bị mất |
+| Bỏ món khỏi khung nhưng vẫn trong tủ | Ghi “ra khỏi vùng theo dõi”, không tự kết luận đã ăn |

@@ -1,33 +1,30 @@
-# Nhật ký hỗ trợ AI khi chuẩn bị bài
+# Nhật ký hỗ trợ AI — Phạm Minh Cương
 
-**Học viên:** Phạm Minh Cương — **Mã học viên:** 2A202602825.
+**Mã học viên: 2A202602825**
 
-> Đây là nhật ký công việc dựa trên quá trình tạo bản nháp trong cuộc trao đổi, không phải reflection viết thay học viên hoặc bằng chứng đã tham gia hoạt động nhóm.
+Nhật ký ghi hoạt động chuẩn bị tài liệu, không thay cho reflection hoặc biên bản nhóm.
 
-| Phần việc | Trợ lý đã thực hiện | Phần học viên còn cần tự làm/xác nhận |
-|---|---|---|
-| Đọc đề | Đọc README, worksheet và bài mẫu; giải thích cấu trúc bài nộp | Đối chiếu với hướng dẫn riêng của lớp nếu có |
-| Chuẩn bị nội dung | Chọn tạm bối cảnh học tập và soạn 10 gợi ý vấn đề | Tự xác nhận ít nhất 5 vấn đề từ quan sát thật |
-| Problem Cards | Soạn 3 card cho các vấn đề đề xuất | Sửa actor, workflow, impact và lý do chọn theo trải nghiệm |
-| Workflow | Viết sơ đồ trước/sau bằng văn bản và Mermaid | Kiểm từng bước, bổ sung thời gian thực tế |
-| Research | Đọc và dẫn nguồn chính thức về Classroom, Tasks và Notion | Tự đối chiếu các nguồn và đánh giá mức phù hợp với bối cảnh của nhóm |
-| Đối chiếu tài liệu | Lập và tự rà checklist DOC-01 trên README và worksheet của đề bài thật | Học viên kiểm tra độc lập; bổ sung kiểm chứng với người dùng |
-| Problem Statement | Soạn v0/v1, metric đề xuất và boundary | Xác nhận vấn đề, đo baseline, thống nhất mục tiêu với nhóm |
-| Quyết định | Đề xuất Not Yet vì chưa đủ bằng chứng cho triển khai | Nhóm tự quyết định sau khi kiểm chứng và so sánh phương án |
-| GitHub | Tạo repo `mcnb2005/Day02-2A202602825-PhamMinhCuong`; đẩy các file bài lên nhánh `main`; chuyển sang công khai theo yêu cầu của học viên | Bổ sung nội dung còn thiếu trước khi nộp đường dẫn repo |
-| Reflection | Điền sự kiện và cách dùng AI đã ghi nhận; giữ câu hỏi về nhận định cá nhân | Tự viết từ trải nghiệm, đóng góp và nhận định thật |
+| Giai đoạn | Dữ kiện |
+|---|---|
+| Đọc đề | Trợ lý đọc README, worksheet và bài mẫu Day02 |
+| Bản nháp ban đầu | Khi chưa có ý tưởng nhóm, trợ lý dùng tạm đề tài quản lý yêu cầu bài tập |
+| GitHub | Theo yêu cầu học viên, tạo repo cá nhân, tải tài liệu và chuyển repo sang công khai |
+| Bổ sung bối cảnh thật | Học viên cung cấp ba ảnh và xác nhận là ý tưởng nhóm về FreshBox |
+| Đọc ảnh | Trợ lý ghi lại khung mở bốn bên, mốc cất/nhắc điện thoại, ngang 26/38/50 cm, cao điều chỉnh, pin bốn trụ |
+| Cập nhật bài | Chuyển scan/cards, workflow, research, Problem Statement và quyết định sang FreshBox |
+| Research | Tra cứu nguồn nhà cung cấp, cơ quan an toàn thực phẩm và nghiên cứu liên quan |
+| Phân tích giới hạn | Tách tracking/nhắc kiểm tra với bảo đảm ăn an toàn; đề xuất một món/vùng để thử định danh |
+| Visual | Lưu nguyên ảnh 1 được cung cấp; tạo sơ đồ SVG diễn giải concept, không phải bản vẽ chế tạo |
+| Reflection | Ghi hoạt động đã biết và câu hỏi để học viên tự viết, không bịa đóng góp nhóm |
 
-## Các giới hạn cần tự đánh giá
+## Những kết luận chưa thể đưa ra
 
-- Đề tài do AI chọn tạm, chưa phải vấn đề học viên hoặc nhóm xác nhận.
-- Các số mục tiêu là đề xuất, chưa có baseline hoặc kết quả thử nghiệm.
-- Có tài liệu sản phẩm không đồng nghĩa có bằng chứng về khó khăn của người dùng.
-- Chưa có phỏng vấn, khảo sát, biên bản họp hoặc bình chọn nhóm trong dữ liệu được cung cấp.
+Chưa có số người dùng đã phỏng vấn, mức giảm lãng phí, độ chính xác cảm biến, thời lượng pin, giá thành hoặc quyết định thống nhất của nhóm trong dữ liệu được cung cấp.
 
 ## Ghi nhận sửa đổi của học viên
 
-| Ngày | File/phần đã tự kiểm tra | Tôi sửa điều gì? | Quan sát hoặc lý do của tôi |
-|---|---|---|---|
-| [CẦN BẠN ĐIỀN] | | | |
-
-Dùng nhật ký này làm dữ liệu để viết reflection; không coi các việc trợ lý thực hiện là đóng góp tự thực hiện của học viên.
+| Phần | Sửa đổi đã biết | Cần bổ sung |
+|---|---|---|
+| Bối cảnh đề tài | Cung cấp ảnh FreshBox thay cho giả định học tập của trợ lý | Lý do nhóm chọn vấn đề và quan sát thật |
+| Thông tin cá nhân | Cung cấp họ tên và mã học viên | Tên nhóm, thành viên, đóng góp |
+| Các lập luận chuyên môn | Chưa có phản hồi cụ thể được cung cấp | File/đoạn đã tự kiểm, điều sửa và lý do |

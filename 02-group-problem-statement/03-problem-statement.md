@@ -1,105 +1,116 @@
-# 02.3 — Workflow và Problem Statement
+# 02.3 — Workflow, metric và Problem Statement: FreshBox
 
-> **Bản phân tích đề xuất; chưa được kiểm chứng hoặc thông qua bởi nhóm.** v0/v1 thể hiện hai mức hoàn thiện của bản nháp. Chưa có dữ liệu phỏng vấn để khẳng định sự thay đổi của vấn đề trong thực tế.
+## 1. Actor và phạm vi
 
-## 1. Phạm vi và người dùng
+Actor đề xuất: người trực tiếp cất và quản lý thực phẩm trong một tủ lạnh gia đình hoặc nhà ở chung. Cần xác nhận phân khúc qua phỏng vấn.
 
-Người dùng mục tiêu đề xuất là học viên phải kết hợp thông tin ở nhiều nguồn để hiểu đủ một bài tập. Một lần xử lý giới hạn ở **một bài, tối đa ba văn bản nguồn do học viên chọn và cung cấp**, không bao gồm tự truy cập toàn bộ tài khoản học tập.
+MVP giới hạn ở **một vùng theo dõi với một vật phẩm tại một thời điểm**. Mỗi vật phẩm có ID do người dùng xác nhận. Khung rộng chứa nhiều vật phẩm trong ảnh là hướng sản phẩm; chưa giả định một cảm biến chung phân biệt được tất cả món.
 
-Đầu ra cần có: tên bài, sản phẩm cần nộp, tiêu chí bắt buộc, thời hạn nếu nguồn có nêu, nơi nộp, đoạn/đường dẫn nguồn và tình trạng đã xác nhận hay còn thiếu thông tin.
+## 2. Current workflow — cần quan sát thực tế
 
-## 2. Current workflow cần xác nhận
-
-| Bước | Actor | Input | Output | Thời gian/tần suất | Bàn giao/điểm cần quan sát |
+| Bước | Actor | Input | Output | Thời gian/tần suất | Điểm cần quan sát |
 |---|---|---|---|---|---|
-| 1. Mở các nguồn | Học viên | Thông báo có bài hoặc sửa đề | Tập nguồn cần đọc | Chưa đo; mỗi bài/lần cập nhật | Cần biết nguồn nào đang có hiệu lực |
-| 2. Đọc và đối chiếu | Học viên | Đề bài, tài liệu, thông báo bổ sung | Các yêu cầu và chỗ chưa thống nhất | Chưa đo | Điểm nghẽn giả định: liên kết thông tin rải rác |
-| 3. Chép checklist | Học viên | Các yêu cầu đã tìm | Checklist nháp có nguồn | Chưa đo | Có thể bỏ sót yêu cầu hoặc chép sai |
-| 4. Xác nhận chỗ chưa rõ | Học viên; người phụ trách nếu cần | Checklist và câu hỏi | Checklist đã đối chiếu; câu hỏi còn mở | Chưa đo cả thao tác và thời gian chờ | Người phụ trách làm rõ khi nguồn không đủ |
-| 5. Lưu và lập lịch | Học viên | Checklist đã duyệt | Danh sách công việc và lịch nếu đủ ngày/giờ | Chưa đo | Học viên tự lưu và chịu trách nhiệm xác nhận |
+| 1. Cất thực phẩm | Người dùng | Hộp/chai và thông tin nhãn | Món nằm trong tủ | Chưa đo | Ngày nấu/mở có thể trước ngày cất |
+| 2. Ghi nhớ/ghi nhãn | Người dùng | Thông tin mình biết | Nhãn/ghi chú hoặc trí nhớ | Chưa đo | Có ghi nhận không, ghi mốc nào? |
+| 3. Tra cứu khi cần | Người dùng/thành viên khác | Nhu cầu tìm món hoặc thông tin | Tìm, đọc nhãn, hỏi người cất | Chưa đo | Điểm nghẽn giả định: tái dựng thông tin đã mất |
+| 4. Quyết định xử lý | Người dùng | Nhãn, điều kiện bảo quản, thông tin liên quan | Quyết định cách xử lý | Chưa đo | Không coi hình thức món là chứng nhận an toàn |
+| 5. Cập nhật tồn | Người lấy/cất | Hành động sử dụng/di chuyển | Ghi chú hoặc danh sách được sửa | Chưa đo | Có người khác dùng tủ, đổi món hay không? |
 
 ```mermaid
 flowchart TD
-    A["Học viên mở các nguồn của một bài"] --> B["Đọc và đối chiếu yêu cầu — điểm nghẽn giả định"]
-    B --> C["Chép checklist kèm nguồn"]
-    C --> D{"Thông tin đủ và nhất quán?"}
-    D -->|Có| E["Học viên kiểm tra và lưu; nhập lịch nếu đủ thông tin"]
-    D -->|Không| F["Hỏi người phụ trách; chờ làm rõ"]
-    F --> B
+    A["Cất hộp hoặc chai"] --> B["Ghi nhãn, ghi chú hoặc ghi nhớ"]
+    B --> C["Sau đó cần tìm và kiểm tra"]
+    C --> D{"Có bản ghi rõ?"}
+    D -->|Có| E["Đọc thông tin và hướng dẫn phù hợp"]
+    D -->|Không| F["Tìm lại, hỏi người cất; có thể vẫn chưa rõ"]
+    F --> E
+    E --> G["Người dùng quyết định xử lý và cập nhật tồn"]
 ```
 
-## 3. Future workflow đề xuất
+## 3. Future workflow — Rule/IoT
 
-| Bước | Cách xử lý | Input → output | Ai xác nhận? |
+| Bước | Xử lý | Input → output | Trách nhiệm |
 |---|---|---|---|
-| 1. Chọn nguồn và phiên bản | Học viên | Văn bản, link, thời điểm/phiên bản nếu biết → tập input cho một bài | Học viên |
-| 2. Tạo checklist nháp | AI trong workflow cố định | Input → các trường có đoạn nguồn; thiếu/mâu thuẫn được đánh dấu | Chưa được coi là thông tin đã duyệt |
-| 3. Đối chiếu và giải quyết chỗ chưa rõ | Học viên, người phụ trách khi cần | Bản nháp → bản đã kiểm hoặc trạng thái chờ xác nhận | Học viên chịu trách nhiệm review |
-| 4. Lưu và nhập lịch | Học viên dùng mẫu cố định | Bản đã duyệt → checklist lưu lại và mục lịch nếu đủ thông tin | Học viên thực hiện thao tác cuối |
-
-Các bước định dạng trường, kiểm tra ô bắt buộc và đánh dấu trạng thái có thể dùng rule/template. Việc hiểu văn bản và gợi ý cấu trúc là phần thử AI. Bản lab mô tả thiết kế, chưa xây hoặc tích hợp hệ thống.
+| 1. Phát hiện thay đổi | Cảm biến + lọc sự kiện | Tín hiệu → sự kiện có mốc thiết bị | Chưa coi là đã biết đúng món |
+| 2. Xác nhận vật phẩm | Người dùng | Sự kiện → ID mới/cũ, mốc đã biết, trạng thái chưa rõ | Người dùng sửa nếu hệ thống hiểu sai |
+| 3. Lưu và lên lịch | Rule | Hồ sơ đã xác nhận → lịch sử và mốc nhắc | Tách mốc cất/mở/nhãn/nhắc; không tự suy hạn |
+| 4. Nhắc kiểm tra | Rule + kết nối điện thoại | Lịch nhắc → thông báo có trạng thái gửi/nhận | Báo lần đồng bộ cuối khi ngoại tuyến |
+| 5. Xử lý và cập nhật | Người dùng + cảm biến | Lấy/đặt lại/thay món → sự kiện và trạng thái | Không tự coi lấy ra là đã ăn; không reset mốc cũ |
 
 ```mermaid
 flowchart TD
-    A["Học viên chọn và cung cấp nguồn của một bài"] --> B["AI trích xuất checklist nháp kèm nguồn"]
-    B --> C["Học viên đối chiếu từng trường với nguồn"]
-    C --> D{"Đủ, đúng và đã xác nhận?"}
-    D -->|Có| E["Học viên lưu checklist và nhập lịch đã xác nhận"]
-    D -->|Thiếu hoặc mâu thuẫn| F["Giữ trạng thái chưa xác định; hỏi người phụ trách"]
-    F --> G["Cập nhật nguồn sau khi có câu trả lời"]
-    G --> C
-    C -->|Bản nháp sai hoặc tốn công sửa| H["Quay về mẫu checklist thủ công"]
-    H --> D
+    A["Cảm biến phát hiện thay đổi"] --> B["Ghi sự kiện dự kiến và thời gian"]
+    B --> C{"Định danh và hành động đã rõ?"}
+    C -->|Chưa| D["Người dùng chọn món và xác nhận"]
+    C -->|Đã có xác nhận hợp lệ| E["Cập nhật hồ sơ và lịch sử"]
+    D --> E
+    E --> F["Rule lập lịch nhắc đã được người dùng chọn"]
+    F --> G{"Điện thoại có kết nối?"}
+    G -->|Có| H["Gửi nhắc kiểm tra; ghi trạng thái nhận"]
+    G -->|Không| I["Giữ dữ liệu, báo lần đồng bộ cuối"]
+    I -->|Kết nối lại| H
+    H --> J["Người dùng kiểm tra thông tin và xử lý"]
+    J --> K["Xác nhận lấy, đặt lại hoặc thay món"]
+    K --> E
 ```
 
-**Bottleneck mới có thể có:** con người review nguồn và giải quyết mâu thuẫn. Chưa biết tổng thời gian có giảm; phải tính cả bước này trong pilot. Nếu nguồn không đủ, workflow giữ trạng thái chờ, không tự hoàn tất.
+Nếu không biết thời gian do mất nguồn/đồng hồ: giữ “mốc chưa xác định” và yêu cầu bổ sung; không bịa timestamp. Mất mạng chỉ có thể đồng bộ lại phần dữ liệu thiết bị thực sự lưu được.
 
-## 4. Before/after và cách đo
+## 4. Trường dữ liệu và ranh giới
 
-| Chỉ số | Hiện trạng | Phương án sau | Cách kiểm tra |
+| Trường | Nguồn và ý nghĩa |
+|---|---|
+| ID vật phẩm/vùng | Người dùng xác nhận; không dùng trọng lượng làm danh tính |
+| Thời điểm cất lần đầu đã biết | Cảm biến đề xuất; người dùng sửa khi món đã được cất từ trước |
+| Thời điểm mở/chế biến nếu biết | Người dùng nhập; không suy từ thao tác lấy/đặt |
+| Nội dung ngày/hướng dẫn trên nhãn | Người dùng nhập; OCR chỉ gợi ý ở nhánh mở rộng |
+| Mốc nhắc | Người dùng chọn; là lịch nhắc kiểm tra, không phải chứng nhận hạn an toàn |
+| Sự kiện lấy/đặt lại và lần đồng bộ cuối | Log thực tế, giữ lịch sử và trạng thái tin cậy |
+| Trạng thái | Chờ xác nhận / đang theo dõi / ra khỏi vùng / đã kết thúc theo xác nhận |
+
+AI không được quyết định “ăn được”, tự kéo dài mốc sử dụng hoặc thay thế thông tin nhãn. Xem [căn cứ về bảo quản](02-validation-and-research.md).
+
+## 5. Metric — mục tiêu đề xuất, chưa có kết quả
+
+| Chỉ số | Baseline | Mục tiêu thử nghiệm | Cách đo |
 |---|---|---|---|
-| Số bước chính theo thiết kế | 5 | 4, có nhánh ngoại lệ | Đối chiếu thực tế; không suy ra tiết kiệm từ số bước |
-| Tổng thời gian | Chưa đo | Mục tiêu trung vị ≤10 phút/lượt hoàn tất | Bấm giờ từ mở nguồn đến lưu xong; ghi riêng thời gian chờ |
-| So với phương án đơn giản | Chưa đo template thủ công | Mục tiêu giảm ≥30% thời gian trung vị so với template | Dùng nhiệm vụ tương đương; tính cả nhập nguồn, review, sửa và lưu |
-| Hạn nộp sai sau review | Chưa đo | Mục tiêu 0 trường hợp trong tập pilot | So với nguồn đã xác nhận; thiếu ngày/giờ phải ghi thiếu |
-| Yêu cầu bắt buộc được ghi đúng | Chưa đo | Mục tiêu ≥95% trên tập pilot | Số yêu cầu đúng trong checklist / tổng yêu cầu theo đáp án |
-| Yêu cầu không có căn cứ trong checklist đã duyệt | Chưa đo | Mục tiêu 0 trên tập pilot | Kiểm mọi yêu cầu đã thêm; không chỉ tính độ bao phủ |
-| Lượt chưa giải quyết được nguồn mâu thuẫn | Chưa đo | Ghi đầy đủ số lượt và lý do | Không loại âm thầm các lượt này khỏi báo cáo thời gian |
-| Rủi ro mới | Lỗi đọc/chép của người | AI có thể bịa trường, lấy nhầm phiên bản hoặc bỏ sót | Lưu lỗi trước và sau review; không chỉ báo cáo bản đã sửa |
+| Ghi nhận sự kiện cất/lấy | Chưa đo | Phát hiện ≥95% sự kiện hợp lệ; lỗi trùng/giả ≤5% số bản ghi | So với người quan sát/video có mốc; không chỉ đếm log hệ thống |
+| Bản ghi đúng ID và giờ sau xác nhận | Chưa đo | ≥95% lượt cất đúng ID, sai số giờ ≤5 giây khi đồng hồ đã đồng bộ | Kiểm cả phát hiện, ID và timestamp; lượt không có log là thất bại |
+| Lấy rồi đặt lại cùng món | Chưa đo | 0 lần tự reset mốc gốc trong tập thử | So hồ sơ trước/sau; ghi riêng sự kiện quay lại |
+| Công ghi/xác nhận một món | Chưa đo nhãn/app | Trung vị ≤10 giây và giảm ≥30% so với nhập app thủ công | Tính cả chọn ID, sửa lỗi và mở app; không chỉ tính thời gian cảm biến |
+| Tra thông tin một món | Chưa đo cách hiện tại | Trung vị ≤15 giây và giảm ≥30% so với cách hiện tại | Bắt đầu từ yêu cầu tìm đến khi có thông tin đúng |
+| Nhắc đến điện thoại | Chưa đo | ≥95% nhắc nhận trong 60 giây từ mốc hẹn khi kết nối bình thường | Đối chiếu trên điện thoại; gửi lên máy chủ chưa tính là đã nhận |
+| Thông tin không biết | Chưa đo | 0 lần tự điền ngày mở/hạn dùng hoặc báo an toàn không có căn cứ | Rà dữ liệu và thông báo trong toàn bộ tập thử |
+| Tương thích, pin, nhiệt độ | Chưa đo | Chưa chốt ngưỡng số khi chưa có kích thước tủ và phần cứng | Đo vật lý, điện năng, đồng bộ; không suy tuổi thọ pin từ ảnh |
+| Giảm bỏ quên/lãng phí | Chưa có nhật ký hộ gia đình | Chỉ theo dõi thăm dò, chưa hứa phần trăm giảm | Nhật ký trước/sau, số món và lý do bỏ; không thử ăn đồ đáng ngờ |
 
-Các ngưỡng là đề xuất thiết kế cho thử nghiệm nhỏ, cần nhóm xem xét lại sau khi có baseline. Không diễn giải "0 lỗi trong pilot" thành bảo đảm không bao giờ sai.
+Giảm thời gian = (trung vị đối chứng − trung vị FreshBox) / trung vị đối chứng. Báo cỡ mẫu, lỗi và lượt chưa hoàn tất; pilot nhỏ không cho phép khái quát hiệu quả cho mọi gia đình.
 
-## 5. Problem Statement v0 — bản đề xuất ban đầu
+**Before/after:** cả hai workflow có khoảng 5 bước chính; lợi ích cần chứng minh nằm ở độ đầy đủ dữ liệu và công người dùng, không phải số bước ít hơn.
 
-| Field | Nội dung |
-|---|---|
-| Actor | Học viên quản lý bài tập nhận qua nhiều nguồn. |
-| Workflow | Mở nguồn → đọc/đối chiếu → chép checklist → xác nhận → lưu và lập lịch. |
-| Bottleneck | Giả định bước đọc và tổng hợp yêu cầu đang tốn công; chưa xác nhận bằng quan sát. |
-| Impact | Có thể làm chậm việc bắt đầu bài và tạo rủi ro nộp thiếu; chưa có bằng chứng về tần suất hoặc mức độ. |
-| Success Metric | Đo thời gian đến checklist đã kiểm, tỷ lệ yêu cầu đúng và lỗi deadline; baseline chưa có. |
-| Boundary | Chỉ hỗ trợ hiểu và tổ chức yêu cầu; học viên xác nhận thông tin và tự nộp bài. |
-
-## 6. Problem Statement v1 — thu hẹp sau nghiên cứu tài liệu
+## 6. Problem Statement v0 — diễn đạt từ ý tưởng đầu vào
 
 | Field | Nội dung |
 |---|---|
-| Actor | Học viên có một bài tập cần đối chiếu ít nhất hai nguồn; loại khỏi phạm vi trường hợp một lịch/LMS đã cung cấp đầy đủ. Điều kiện này cần xác nhận qua phỏng vấn. |
-| Workflow | Cung cấp tối đa ba văn bản của một bài → trích checklist có nguồn → review và hỏi chỗ chưa rõ → lưu và lập lịch nếu đủ thông tin. |
-| Bottleneck | Giả thuyết tập trung vào chuyển các yêu cầu bằng văn bản thành checklist nhất quán, thay vì chỉ nhắc deadline. |
-| Impact | Chi phí đọc, chép, kiểm tra và sửa checklist; đo trực tiếp trước khi khẳng định tác động. |
-| Success Metric | Đề xuất trung vị ≤10 phút và giảm ≥30% so với template không AI; ≥95% yêu cầu bắt buộc được ghi đúng; không có deadline sai hoặc yêu cầu bịa trong bản đã duyệt của tập pilot. |
-| Boundary | Một bài/tối đa ba nguồn; không đoán ngày/giờ, không tự quyết mâu thuẫn, không đọc tài khoản tự động, không tự gửi hoặc nộp bài; học viên duyệt trước khi lưu lịch. |
-| AI intervention point | Sau khi học viên chọn nguồn, trước khi đối chiếu checklist nháp. |
-| Mức chọn đề xuất | Workflow có một bước AI; template/rule cho cấu trúc; người dùng review. Chưa có cơ sở cần Agent tự lập kế hoạch. |
-| Rủi ro và kiểm tra | Bỏ sót, nhầm phiên bản, bịa deadline; học viên đối chiếu từng trường với nguồn, hỏi người phụ trách nếu chưa rõ, quay về nhập tay nếu không đáng tin. |
+| Actor | Người dùng cất thực phẩm và đồ uống trong tủ lạnh |
+| Workflow | Cất → nhớ/ghi → tìm/kiểm tra → sử dụng hoặc xử lý |
+| Bottleneck | Không có thông tin thuận tiện về lúc cất |
+| Impact | Có nguy cơ quên món và tốn công tìm thông tin; chưa đo |
+| Success Metric | Mong muốn ghi nhận và nhắc qua điện thoại; cần cụ thể hóa |
+| Boundary | Ban đầu chưa phân biệt theo dõi thời gian với đánh giá độ an toàn |
 
-**Lý do thay đổi:** nghiên cứu cho thấy đã có các phương án lưu nhiệm vụ và xem deadline; vì vậy bản nháp giới hạn vào công đọc và đối chiếu nguồn. Đây là suy luận từ [research](02-validation-and-research.md), chưa phải kết luận từ phỏng vấn.
+## 7. Problem Statement v1 — bản phân tích đã thu hẹp
 
-## 7. Những mục phải cập nhật sau kiểm chứng
+| Field | Nội dung |
+|---|---|
+| Actor | Người trực tiếp quản lý thực phẩm trong một tủ lạnh, đồng ý thử một vùng theo dõi; chưa xác nhận phân khúc bằng phỏng vấn |
+| Workflow | Cất món → cảm biến ghi sự kiện → người dùng xác nhận ID/mốc → lưu và nhắc kiểm tra → cập nhật lấy/đặt lại |
+| Bottleneck | Thiếu bản ghi tại thời điểm cất và công duy trì danh sách khiến thông tin cần tra lại không đáng tin |
+| Impact | Công ghi/tra cứu và số món bị bỏ quên; chưa có baseline hoặc số liệu tổn thất |
+| Success Metric | Ghi đúng ≥95%; công xác nhận ≤10 giây và giảm ≥30% so với app; tra cứu ≤15 giây; không reset mốc cùng món; các điều kiện đo ở bảng metric |
+| Boundary | Một vật phẩm/vùng; xác nhận danh tính và mốc; không bảo đảm ăn an toàn; không tự suy ngày mở/hạn; giữ trạng thái chưa rõ khi thiếu dữ liệu |
+| AI intervention point | Chỉ ở nhánh mở rộng đọc tên/nội dung nhãn từ ảnh do người dùng cung cấp, trước bước xác nhận |
+| Mức chọn | Rule/IoT cho MVP; Workflow có AI được so sánh riêng sau |
+| Rủi ro và người kiểm tra | Nhầm món, mất log, cảnh báo sai, thiết bị không vừa; người dùng review hồ sơ, người thử nghiệm đối chiếu log và kiểm phần cứng |
 
-- Học viên mục tiêu và ví dụ bài thật.
-- Workflow thực tế, thời gian từng bước và điểm nghẽn quan sát được.
-- Baseline và ngưỡng mục tiêu được nhóm chấp nhận.
-- Tín hiệu phản bác giả thuyết; thay đổi scope nếu cách không AI đã đủ.
-- Người review, người phụ trách làm rõ nguồn và quyết định cuối của nhóm.
+v0/v1 là hai phiên bản phân tích từ tư liệu nhóm và research, không giả là kết quả hai vòng phỏng vấn đã xảy ra.

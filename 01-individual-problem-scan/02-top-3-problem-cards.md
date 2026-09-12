@@ -1,63 +1,59 @@
-# 01.2 — Top 3 Problem Cards
+# 01.2 — Top 3 Problem Cards: FreshBox
 
-**Học viên:** Phạm Minh Cương — **Mã học viên:** 2A202602825.
+**Phạm Minh Cương — 2A202602825**
 
-> Ba card là bản nháp theo bối cảnh đề xuất. Actor, workflow và impact cần được học viên đối chiếu với trải nghiệm thật. Tất cả mục tiêu số dưới đây là **ngưỡng đề xuất**, chưa phải kết quả đo hoặc cam kết hiệu quả.
+Các card là bản phân tích đề xuất từ ý tưởng nhóm. Workflow và impact cần xác nhận với người dùng. Mọi ngưỡng số dưới đây là **mục tiêu pilot**, không phải kết quả đã đo.
 
-## Card 1 — Tổng hợp yêu cầu bài tập từ nhiều nguồn
+## Card 1 — Không nhớ lúc cất thực phẩm
 
-| Trường | Nội dung bản nháp |
+| Trường | Nội dung |
 |---|---|
-| Problem một câu | Học viên phải đọc và đối chiếu thông báo bài tập ở nhiều nơi trước khi lập được checklist có yêu cầu, hạn nộp và nơi nộp đáng tin cậy. |
-| Actor | Học viên tự chuẩn bị kế hoạch cho bài cá nhân hoặc phần việc được giao trong bài nhóm. |
-| Thời điểm/bối cảnh | Khi nhận bài mới hoặc nhận thông báo sửa yêu cầu. Chỉ áp dụng nếu thông tin thực sự nằm ở nhiều nguồn. |
-| Current workflow | Mở nguồn → đọc và đối chiếu → chép checklist → xác nhận thông tin chưa rõ → lưu lịch/checklist. |
-| Bottleneck giả định | Đọc, liên kết và đối chiếu các yêu cầu rải rác để tránh bỏ sót hoặc lấy nhầm phiên bản. Cần đo để xác nhận. |
-| Impact giả định | Tốn công chuẩn bị trước khi làm bài; checklist thiếu có thể gây làm lại hoặc nộp thiếu phần. Chưa xác định tần suất và mức độ. |
-| Success metric đề xuất | Thời gian trung vị từ mở nguồn đến có checklist được duyệt ≤10 phút và giảm ≥30% so với template thủ công; không có deadline sai trong checklist đã duyệt của tập pilot. Hiện trạng chưa đo. |
-| Non-AI alternative | Một mẫu checklist cố định có cột nguồn; nhập thủ công vào công cụ đang dùng; kiểm tra chức năng lịch của LMS trước. |
-| AI hypothesis | AI có thể trích xuất các trường từ văn bản được cung cấp và chỉ ra chỗ thiếu/mâu thuẫn, giảm công đọc và chép. Cần thử mới biết tổng thời gian sau review có giảm không. |
-| Quick gut | Workflow có người kiểm tra. Not Yet cho triển khai. |
-| Giới hạn | Không đoán deadline thiếu; không tự quyết nguồn nào đúng khi mâu thuẫn; không tự nộp bài hoặc tự sửa lịch. |
+| Problem một câu | Người quản lý tủ lạnh không có bản ghi đáng tin về lúc cất từng hộp, nên phải tìm, nhớ hoặc hỏi lại khi cần kiểm tra. |
+| Actor | Người tự chuẩn bị và quản lý thực phẩm trong một tủ lạnh gia đình/nhà ở chung; nhóm người dùng mục tiêu còn cần xác nhận. |
+| Bối cảnh | Khi cất một món và khi quyết định món nào cần kiểm tra trước. |
+| Current workflow | Cất hộp → ghi nhãn hoặc ghi nhớ → sau đó tìm lại → đọc nhãn/hỏi người khác → quyết định cách xử lý → cập nhật nếu có. |
+| Bottleneck | Thiếu ghi nhận tại thời điểm cất; đến lúc cần dùng mới tái dựng thông tin. |
+| Impact giả định | Tốn công tìm/hỏi; có thể quên món. Chưa có số đo lãng phí hoặc tần suất. |
+| Success metric | ≥95% lượt cất thử nghiệm có bản ghi đúng ID và mốc; trung vị tra cứu ≤15 giây và giảm ≥30% so với cách hiện tại. Baseline chưa đo. |
+| Non-AI alternative | Dán nhãn ngày giờ + một khu vực để món cần chú ý; lịch nhắc do người dùng đặt. |
+| AI hypothesis | AI có thể gợi ý tên từ nhãn để giảm nhập liệu, nhưng việc ghi giờ và nhắc không cần AI. |
+| Quick gut | Rule/IoT cho MVP; AI là tùy chọn được thử riêng. |
+| Boundary | Không suy ra hạn dùng hay an toàn từ thời điểm cất; người dùng xác nhận món và mốc. |
 
-## Card 2 — Chuyển ghi chú họp nhóm thành nhiệm vụ rõ
+## Card 2 — Lẫn thời điểm cất với thời điểm mở
 
-| Trường | Nội dung bản nháp |
+| Trường | Nội dung |
 |---|---|
-| Problem một câu | Sau họp nhóm, thành viên phải đọc lại ghi chú và hỏi lại nhau để xác định việc đã thống nhất, người phụ trách và thời điểm bàn giao. |
-| Actor | Nhóm trưởng hoặc người tổng hợp công việc cho nhóm học tập 3–4 người. |
-| Thời điểm/bối cảnh | Sau buổi chia việc hoặc cập nhật tiến độ. |
-| Current workflow | Gom ghi chú → tìm cam kết → viết bảng nhiệm vụ → hỏi chỗ thiếu → gửi xác nhận → lưu bản thống nhất. |
-| Bottleneck giả định | Tách nhiệm vụ thật khỏi ý tưởng đang thảo luận; ghép đúng người và thời điểm đã được đồng ý. |
-| Impact giả định | Hỏi lại nhiều lần, bỏ sót việc hoặc hai người cùng làm một phần. Cần ghi nhận tình huống thực. |
-| Success metric đề xuất | Giảm ≥30% thời gian tổng hợp so với mẫu biên bản có sẵn; 100% nhiệm vụ được người nhận xác nhận trước khi dùng. Hiện trạng chưa đo. |
-| Non-AI alternative | Ghi trực tiếp vào bảng "việc — người nhận — hạn — đầu ra" ngay trong cuộc họp. |
-| AI hypothesis | AI lập bản nháp nhiệm vụ từ ghi chú có sẵn, gắn đoạn nguồn và đánh dấu trường chưa rõ. |
-| Quick gut | Ưu tiên sửa quy trình ghi họp; chỉ thử Workflow nếu vẫn tốn công chuyển ghi chú tự do. |
-| Giới hạn | Không tự giao việc hoặc biến ý tưởng thành cam kết; thành viên phải xác nhận nhiệm vụ của mình. |
+| Problem một câu | Người dùng nhớ ngày mua hoặc ngày cất nhưng không ghi ngày mở bao bì, làm thông tin theo dõi thiếu mốc quan trọng. |
+| Actor | Người dùng chai/hộp thực phẩm đóng gói nhiều lần. |
+| Bối cảnh | Mở lần đầu, dùng một phần, rồi đặt lại vào tủ. |
+| Current workflow | Mua/cất → mở bao bì → dùng một phần → cất lại → đọc hướng dẫn và cố nhớ lần mở. |
+| Bottleneck | Thao tác mở không đồng nghĩa với sự kiện lấy/đặt vào khung; cảm biến hiện diện không xác định được lúc mở. |
+| Impact giả định | Phải hỏi/đoán; nhắc việc dựa trên sai mốc. Chưa có dữ liệu người dùng. |
+| Success metric | 100% hồ sơ thử có trường ngày cất/ngày mở tách biệt; khi chưa biết ngày mở phải giữ “chưa rõ”; 0 lần tự gán ngày mở từ cảm biến. |
+| Non-AI alternative | Nhãn ngày mở viết tay và hướng dẫn trên bao bì. |
+| AI hypothesis | OCR có thể đọc hướng dẫn trên nhãn nếu người dùng cung cấp ảnh rõ; vẫn phải xác nhận, không đoán ngày mở. |
+| Quick gut | Rule + thao tác “Đã mở”; không cần Agent. |
+| Boundary | Lấy ra rồi đặt lại cùng món không làm mới lịch sử ban đầu. |
 
-## Card 3 — Tìm lại giải thích trong tài liệu khóa học
+## Card 3 — Ngại duy trì app nhập tay
 
-| Trường | Nội dung bản nháp |
+| Trường | Nội dung |
 |---|---|
-| Problem một câu | Khi làm bài, học viên mất thời gian tìm lại lời giải thích hoặc quyết định đã có vì nội dung nằm trong nhiều tài liệu và chuỗi hội thoại. |
-| Actor | Học viên muốn xác nhận một yêu cầu hoặc khái niệm để tiếp tục làm bài. |
-| Thời điểm/bối cảnh | Gặp câu hỏi cụ thể trong quá trình làm bài; đã có tập tài liệu được phép sử dụng. |
-| Current workflow | Viết từ khóa → mở nhiều kết quả → đọc ngữ cảnh → kiểm tra phiên bản → dùng câu trả lời hoặc hỏi người phụ trách. |
-| Bottleneck giả định | Tìm đúng đoạn có thể trả lời câu hỏi và kiểm tra xem thông tin còn áp dụng không. |
-| Impact giả định | Gián đoạn làm bài, hỏi lặp lại, dùng nhầm hướng dẫn cũ. Chưa có số đo. |
-| Success metric đề xuất | Thời gian trung vị đến câu trả lời đã xác minh ≤3 phút; mọi câu trả lời được chấp nhận phải có nguồn đúng; khi nguồn thiếu thì chuyển hỏi người phụ trách. |
-| Non-AI alternative | FAQ, mục lục có từ khóa và ghim thông báo quan trọng. |
-| AI hypothesis | AI có thể tìm và tóm tắt đoạn liên quan trong tập nguồn giới hạn. Cần đánh giá đúng nguồn và không trả lời quá nội dung nguồn. |
-| Quick gut | FAQ trước; Workflow tìm kiếm có dẫn nguồn nếu FAQ không đủ. Chưa có lý do cần Agent. |
-| Giới hạn | Chỉ dùng nguồn được cung cấp; không suy diễn chính sách hay quyết định của giảng viên; chưa có câu trả lời thì nói rõ. |
+| Problem một câu | Người quản lý thực phẩm có thể ngừng dùng danh sách điện tử vì mỗi lần cất/lấy phải nhập và sửa nhiều trường. |
+| Actor | Người đã hoặc đang thử ghi danh sách thực phẩm trên điện thoại. |
+| Bối cảnh | Cất nhiều món, lấy món ra, đổi hộp hoặc dùng chung tủ. |
+| Current workflow | Mở app → thêm tên → nhập mốc → lưu → dùng/lấy món → tìm lại mục → cập nhật trạng thái. |
+| Bottleneck | Công duy trì danh sách diễn ra ở mỗi lần thay đổi vật phẩm. |
+| Impact giả định | Danh sách cũ, nhắc sai món, người dùng bỏ theo dõi. Cần kiểm chứng trực tiếp. |
+| Success metric | Trung vị nhập/xác nhận ≤10 giây mỗi món và giảm ≥30% so với app nhập tay; ≥90% thay đổi tồn có trạng thái đúng khi kiểm cuối phiên. |
+| Non-AI alternative | Nhãn đơn giản hoặc app có ít trường, không bắt nhập toàn bộ tủ. |
+| AI hypothesis | OCR/tên gợi ý chỉ đáng thêm nếu tổng công nhập + sửa thấp hơn cách chọn tên thủ công. |
+| Quick gut | Thử Rule trước; chỉ thêm Workflow có AI khi phép so sánh cho thấy có lợi. |
+| Boundary | Không tự gán danh tính từ một thay đổi trọng lượng chung cho nhiều món. |
 
-## Chuẩn bị tự trình bày với nhóm
+## Chuẩn bị trình bày
 
-- Card tôi thực sự muốn trình bày: [CẦN BẠN ĐIỀN].
-- Quan sát thật làm tôi chọn card này: [CẦN BẠN ĐIỀN].
-- Điều tôi muốn nhóm giúp làm rõ: [CẦN BẠN TỰ ĐIỀN].
+Card đề xuất trình bày là **F1**, vì phù hợp trực tiếp với concept được cung cấp. Học viên vẫn cần tự chọn, kể ví dụ thật và tự đặt câu hỏi challenge. Chưa có lời pitch hoặc phản biện nhóm được ghi nhận.
 
-Không có lời pitch viết sẵn. Học viên tự trình bày và phản biện dựa trên hiểu biết của mình.
-
-Xem [workflow tương ứng](03-workflows.md).
+[Workflow cho ba card](03-workflows.md).

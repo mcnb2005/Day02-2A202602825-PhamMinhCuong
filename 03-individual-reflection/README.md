@@ -1,68 +1,61 @@
-# 03 — Reflection cá nhân
+# 03 — Reflection cá nhân: FreshBox
 
-**Học viên:** Phạm Minh Cương — **Mã học viên:** 2A202602825.
+**Phạm Minh Cương — 2A202602825**
 
-> Đã bổ sung các sự kiện và cách dùng AI ghi nhận được từ cuộc trao đổi. Phần nhận định, bài học và đóng góp nhóm vẫn cần học viên tự viết/xác nhận; đây chưa phải reflection cá nhân hoàn chỉnh.
+Phần dưới tập hợp dữ kiện đã biết để học viên tự viết reflection. Nhận định cá nhân, bài học và đóng góp trong nhóm cần học viên xác nhận, không suy từ việc trợ lý tạo được tài liệu.
 
-## Những việc đã ghi nhận trực tiếp
+## 1. Đóng góp đã ghi nhận
 
-Phạm Minh Cương đã cung cấp repo đề bài, yêu cầu trợ lý giải thích và chuẩn bị bài, cung cấp họ tên/mã học viên, hỏi việc fork có bắt buộc không, yêu cầu tạo repo cá nhân và chuyển repo sang công khai. Sau khi được thông báo các phần còn thiếu, học viên yêu cầu bổ sung thông tin nhóm, trải nghiệm, kiểm chứng và reflection.
-
-Những việc trên thể hiện quá trình chuẩn bị và quản lý bài nộp trong cuộc trao đổi. Chưa có phát biểu về bài học cá nhân, câu hỏi phản biện trong nhóm hoặc kết quả phỏng vấn được cung cấp để đưa vào reflection.
-
-## 1. Đóng góp thực tế của tôi
-
-| Hoạt động | Tôi thực sự làm gì? | Kết quả hoặc đường dẫn bằng chứng |
+| Hoạt động | Dữ kiện đã có | Giới hạn |
 |---|---|---|
-| Chuẩn bị bài nộp | Cung cấp link đề, thông tin học viên; yêu cầu tạo và công khai repo | [Repo cá nhân](https://github.com/mcnb2005/Day02-2A202602825-PhamMinhCuong) |
-| Khảo sát vấn đề cá nhân | Chưa có danh sách quan sát do học viên tự xác nhận | Có bản gợi ý do AI soạn; không coi là scan cá nhân đã hoàn tất |
-| Trình bày vấn đề với nhóm | Chưa có thông tin được cung cấp | Cần ghi sau khi học viên xác nhận |
-| Câu hỏi/challenge trong nhóm | Chưa có thông tin được cung cấp | Câu hỏi về fork trong cuộc trao đổi không thay cho challenge vấn đề với nhóm |
-| Gom nhóm và chọn vấn đề | Chưa có thông tin được cung cấp | Shortlist hiện tại là đề xuất của trợ lý |
-| Phỏng vấn/khảo sát | Chưa có kết quả được cung cấp | DOC-01 là đối chiếu tài liệu, không phải phỏng vấn |
-| Nghiên cứu giải pháp | Trợ lý đã soạn research có nguồn; chưa có phần tự kiểm của học viên | [Research](../02-group-problem-statement/02-validation-and-research.md) |
-| Vẽ và kiểm tra workflow | Trợ lý đã tạo sơ đồ; chưa có phản hồi kiểm tra từng bước của học viên | [Workflow](../01-individual-problem-scan/03-workflows.md) |
-| Sửa Problem Statement | Chưa có sửa đổi chuyên môn do học viên xác nhận | v0/v1 hiện là bản nháp của trợ lý |
-| So sánh giải pháp và quyết định | Chưa có quyết định được nhóm xác nhận | Not Yet là đánh giá của bản nháp dựa trên dữ liệu hiện có |
+| Chuẩn bị bài nộp | Cung cấp repo đề bài, họ tên và mã học viên; yêu cầu tạo repo cá nhân | Không thay cho các hoạt động phân tích của nhóm |
+| Đưa đúng bối cảnh nhóm vào bài | Cung cấp ba ảnh và xác nhận đây là ý tưởng nhóm | Chưa biết ai sáng tạo từng chi tiết hoặc tạo ảnh |
+| Điều chỉnh đề tài | Yêu cầu bổ sung bài theo concept FreshBox | Bản phân tích được cập nhật từ đề tài học tập tạm sang quản lý thực phẩm |
+| Quản lý repo | Yêu cầu tạo, công khai và cập nhật bài trên GitHub | Chưa chứng minh đã nộp đường dẫn cho lớp |
+| Pitch/challenge, phỏng vấn, thử thiết bị | Chưa có hoạt động cụ thể được cung cấp | Cần học viên ghi việc thực sự làm |
 
-## 2. Tôi đã dùng AI như thế nào?
+**Vai trò của tôi trong nhóm:** [HỌC VIÊN TỰ BỔ SUNG].
 
-Các cột về trợ lý được điền từ hoạt động đã thực hiện. Cột tự kiểm/sửa của học viên chưa có dữ liệu; không suy ra học viên đã kiểm tra chỉ vì file đã được tạo.
+**Các thành viên khác và phần việc:** [NHÓM BỔ SUNG].
 
-| Phần việc | Công cụ và yêu cầu đã dùng | AI giúp gì? | Điểm sai, hời hợt hoặc chưa có bằng chứng | Tôi đã tự kiểm tra/sửa gì? |
-|---|---|---|---|---|
-| Scan vấn đề | Codex, chuẩn bị bản nháp theo repo đề bài | Đưa ra 10 gợi ý và 3 vấn đề đề xuất | Chọn bối cảnh học tập khi chưa có trải nghiệm cụ thể của học viên | Chưa được học viên cung cấp |
-| Problem Cards | Codex, soạn cấu trúc card | Làm rõ actor, workflow, metric và phạm vi dự kiến | Các giả định về khó khăn chưa được xác nhận | Chưa được học viên cung cấp |
-| Workflow | Codex, viết sơ đồ văn bản/Mermaid | Thể hiện bước AI, review và fallback | Chưa có quan sát hoặc số đo từng bước | Chưa được học viên cung cấp |
-| Research | Codex, đọc tài liệu chính thức và dẫn link | Có ba phương án để đối chiếu; thêm DOC-01 | Tài liệu sản phẩm và tự đối chiếu của AI không thay thế kiểm chứng người dùng | Chưa được học viên cung cấp |
-| Problem Statement | Codex, soạn v0/v1 | Thu hẹp phạm vi và ghi giới hạn xử lý | Mục tiêu số mới là đề xuất, baseline chưa đo | Chưa được học viên cung cấp |
-| So sánh giải pháp | Codex, lập bảng No AI/Rule/Workflow/Agent | Có phương án đơn giản để so sánh | Chưa có thử nghiệm hiệu quả giữa các phương án | Chưa được học viên cung cấp |
-| Quyết định cuối | Codex, đánh giá trạng thái bằng chứng | Đề xuất Not Yet thay vì khẳng định đủ điều kiện triển khai | Chưa có quyết định của nhóm | Chưa được học viên cung cấp |
+## 2. AI đã hỗ trợ gì, giới hạn ở đâu?
 
-## 3. Reflection tự viết
+| Phần | Hỗ trợ ghi nhận được | Giới hạn/lỗi cần tự đánh giá | Tôi đã tự kiểm tra hoặc sửa gì? |
+|---|---|---|---|
+| Chọn bối cảnh | Trợ lý ban đầu chọn tạm bài toán học tập khi chưa có đề tài | Không khớp ý tưởng thật của nhóm | Học viên đã gửi ba ảnh FreshBox để điều chỉnh bối cảnh |
+| Hình ảnh ý tưởng | Ảnh nhóm gửi thể hiện một cuộc trao đổi tạo minh họa | Ảnh đẹp không chứng minh cảm biến, pin hoặc kích thước hoạt động; chưa rõ ai tạo ảnh | [HỌC VIÊN BỔ SUNG] |
+| Problem scan/cards | Trợ lý đề xuất 8 vấn đề và 3 cards về thực phẩm trong tủ | Chưa phải các quan sát cá nhân đã xác nhận | [HỌC VIÊN BỔ SUNG] |
+| Workflow | Trợ lý tách phát hiện sự kiện, xác nhận ID, lưu mốc và nhắc | Chưa có quan sát sử dụng thật để xác nhận số bước/công thao tác | [HỌC VIÊN BỔ SUNG] |
+| Research | Trợ lý dẫn nguồn NoWaste, Samsung, FoodKeeper, FDA và nghiên cứu CloudFridge | Không thể dùng nguồn đó làm kết quả thử của FreshBox | [HỌC VIÊN BỔ SUNG] |
+| Metric và boundary | Trợ lý tách ngày cất/ngày mở, đặt mục tiêu pilot và giới hạn nhắc kiểm tra | Mục tiêu chưa phải baseline; chưa có phản hồi của nhóm | [HỌC VIÊN BỔ SUNG] |
+| Chọn công nghệ | Đề xuất Rule/IoT làm lõi, OCR là nhánh mở rộng | Chưa có phép so sánh để chốt cần AI | [HỌC VIÊN BỔ SUNG] |
 
-Trả lời bằng sự kiện cụ thể thay vì chỉ viết "học được nhiều điều".
+## 3. Dữ kiện để tự suy ngẫm
 
-1. Trong những vấn đề ban đầu, vấn đề nào đến từ quan sát của tôi? Tôi quan sát khi nào, ở đâu?
-2. Sau khi nghe các bạn trình bày, tôi hiểu thêm điều gì hoặc thay đổi ý kiến ở điểm nào?
-3. Nhóm có lúc nào chọn giải pháp trước khi hiểu vấn đề? Việc gì đã giúp nhóm điều chỉnh?
-4. Câu hỏi nào tôi tự đặt đã làm thay đổi cách nhóm phân tích?
-5. Khó nhất khi xác định điểm nghẽn, chỉ số đo hoặc phạm vi là gì?
-6. Tôi đã sửa đề xuất nào của AI vì nó không khớp thực tế?
-7. Nếu làm lại, tôi sẽ thay đổi bước nào và vì sao?
+Ba chi tiết cụ thể có thể đối chiếu trong bài:
 
-**Nội dung của tôi:**
+1. Khi chưa được cung cấp concept, AI đã chọn một đề tài tạm khác. Thông tin từ học viên đã giúp sửa bối cảnh.
+2. Các ảnh bắt đầu từ hình dáng và tính năng sản phẩm. Bài phân tích quay lại xác định actor, điểm nghẽn và phương án không AI.
+3. Cảm biến ghi lúc cất không tự cho biết ngày mở hay chất lượng thực phẩm. Thiết kế phải giữ giới hạn này trong thông báo và dữ liệu.
 
-[CẦN BẠN TỰ VIẾT SAU KHI THỰC HIỆN]
+Đây là nội dung phân tích có thể tự kiểm tra, chưa phải khẳng định học viên đã học được hoặc tự đưa ra tất cả nhận xét này.
 
-## 4. Tự kiểm mức hiểu bài
+## 4. Reflection của học viên
 
-Tự giải thích bằng lời của mình trước khi nộp:
+Trả lời ngắn bằng việc thực sự xảy ra:
 
-- Ai gặp vấn đề, trong hoàn cảnh nào?
-- Quy trình đang thực hiện ra sao, điểm nghẽn nằm ở bước nào?
-- Số liệu hiện trạng lấy từ đâu, mục tiêu được đo thế nào?
-- Vì sao chọn hoặc không chọn AI?
-- Vì sao Rule, Workflow hoặc Agent phù hợp?
-- AI được làm đến đâu, ai kiểm tra và xử lý khi sai?
-- Quyết định Go/Not Yet/No-Go dựa trên bằng chứng nào?
+- Bạn trực tiếp đóng góp phần nào trong FreshBox? Nêu một chi tiết cụ thể.
+- Khi nhóm xem ba hình, ý kiến nào của bạn làm đổi thiết kế hoặc phạm vi?
+- Có điều gì AI đề xuất mà bạn thấy không đúng với thực tế?
+- Sau khi phân biệt ngày cất/ngày mở và Rule/AI, bạn nghĩ điểm khó nhất của sản phẩm là gì?
+- Nếu làm lại, bạn sẽ hỏi người dùng hoặc thử điều gì trước?
+
+**Bài viết cá nhân:** [HỌC VIÊN TỰ VIẾT/XÁC NHẬN].
+
+Không gán vai trò nhóm trưởng, số người đã phỏng vấn, kết quả tiết kiệm hoặc cảm xúc/bài học cho học viên khi chưa có thông tin đó.
+
+## 5. Tự kiểm hiểu bài
+
+Tự giải thích được: vấn đề của ai → workflow và điểm nghẽn → metric/baseline → mức tự động hóa → giới hạn an toàn → vì sao Not Yet. Nếu nhãn giấy đã đủ, cần giải thích vì sao nhóm vẫn nên hoặc không nên làm phần cứng.
+
+[Nhật ký hỗ trợ AI](01-nhat-ky-ho-tro-ai.md).

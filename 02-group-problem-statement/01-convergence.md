@@ -1,75 +1,65 @@
-# 02.1 — Hội tụ vấn đề của nhóm
+# 02.1 — Ý tưởng và quá trình hội tụ của nhóm
 
-> **Chưa có buổi thảo luận nhóm được ghi nhận.** Phần phân nhóm và shortlist dưới đây là đề xuất chuẩn bị; các bảng nhật ký để trống cho hoạt động thật. Không có điểm bình chọn hoặc phát biểu của thành viên được dựng lên.
+## Thông tin đã xác nhận
 
-## Thông tin nhóm hiện có
-
-| Thông tin | Nội dung đã xác nhận |
+| Mục | Nội dung |
 |---|---|
-| Chủ repo cá nhân | Phạm Minh Cương — 2A202602825 |
-| Tên/mã nhóm | Chưa được học viên cung cấp |
-| Danh sách thành viên | Chưa được học viên cung cấp |
-| Phân công và biên bản thảo luận | Chưa có dữ liệu được cung cấp |
+| Học viên cung cấp tư liệu | Phạm Minh Cương — 2A202602825 |
+| Đề tài được học viên xác nhận là ý tưởng nhóm | FreshBox — khung cảm biến theo dõi thực phẩm trong tủ lạnh |
+| Tư liệu | Ba ảnh chụp quá trình phát triển ý tưởng |
+| Tên nhóm, danh sách thành viên | Chưa được cung cấp |
+| Người tạo từng ảnh, người đề xuất từng chi tiết | Chưa được xác nhận |
+| Biên bản pitch, challenge và chấm điểm | Chưa được cung cấp |
 
-Việc chưa có dữ liệu không đồng nghĩa học viên chưa có nhóm hoặc chưa thảo luận. Cần bổ sung theo thực tế, không tự suy ra vai trò nhóm trưởng hay tên các thành viên.
+Không suy ra Phạm Minh Cương là nhóm trưởng hoặc người tự tạo tất cả concept chỉ vì là người gửi ảnh.
 
-## 1. Ghi nhận candidates
+## Diễn biến ý tưởng thể hiện trong tư liệu
 
-Nhóm 3–4 người, mỗi người trình bày top 3; ghi khoảng 9–12 candidates trước khi gom trùng.
+Đây là trình tự nội dung của ba ảnh, không phải biên bản họp được tái dựng.
 
-| Người trình bày | Candidate 1 | Candidate 2 | Candidate 3 | Câu hỏi/phản biện thật đã nhận |
-|---|---|---|---|---|
-| [THÀNH VIÊN 1] | | | | |
-| [THÀNH VIÊN 2] | | | | |
-| [THÀNH VIÊN 3] | | | | |
-| [THÀNH VIÊN 4, NẾU CÓ] | | | | |
-
-## 2. Cách gom vấn đề đề xuất
-
-Đây là cách gom 10 gợi ý trong bản nháp cá nhân, **chưa thay thế việc gom candidates của cả nhóm**.
-
-| Nhóm vấn đề | Mã gợi ý | Điểm chung |
+| Tư liệu | Nội dung nhìn thấy | Ý nghĩa đối với bài phân tích |
 |---|---|---|
-| Hiểu đề và quản lý hạn nộp | P1, P2, P3 | Chuyển thông báo thành kế hoạch có thể thực hiện và cập nhật |
-| Phối hợp nhóm | P4, P8 | Chuyển trao đổi thành cam kết và đầu ra rõ |
-| Chuẩn bị bản nộp | P5, P6, P10 | Kiểm tra nội dung, phiên bản và quyền truy cập |
-| Tìm và ôn kiến thức | P7, P9 | Tìm lại thông tin phù hợp với nhu cầu hiện tại |
+| Ảnh 1 | Khung mở bốn bên; ghi thời điểm cất thực phẩm/đồ uống; gửi thông tin qua điện thoại | Hướng tới việc nhớ thời gian lưu trữ, cần quay lại xác định người dùng và khó khăn thật |
+| Ảnh 2 | Nhiều cỡ ngang, minh họa 26/38/50 cm; chiều cao điều chỉnh | Cần đo độ vừa ngăn tủ và ảnh hưởng lên không gian/luồng khí |
+| Ảnh 3 | Ý tưởng đặt pin trong bốn trụ góc | Cần kiểm chứng nguồn điện, khả năng bảo trì và hoạt động trong môi trường tủ lạnh |
 
-**Cluster sau thảo luận thật:** [CẦN NHÓM ĐIỀN].
+[Hồ sơ concept](06-freshbox-concept.md) ghi rõ phần nào lấy từ ảnh và phần nào là đề xuất bổ sung.
 
-## 3. Shortlist đề xuất
+## Chuyển từ giải pháp về vấn đề
 
-| Candidate | Lý do cân nhắc | Điều có thể khiến loại khỏi shortlist |
+Hình dạng khung, cảm biến và pin là giải pháp dự kiến. Bài toán cần kiểm chứng là:
+
+> Người quản lý tủ lạnh thiếu bản ghi thuận tiện và đáng tin về các mốc lưu trữ của từng món, nên phải nhớ hoặc tìm lại thông tin khi cần kiểm tra.
+
+Mục tiêu “ăn mà không bị hỏng” trong ý tưởng được chuyển thành phạm vi có thể kiểm tra: **ghi đúng lịch sử và nhắc người dùng xem lại thông tin**. Chưa có cơ sở để thiết bị xác nhận mức an toàn của thực phẩm.
+
+## Shortlist đề xuất từ concept
+
+| Candidate | Điểm mạnh khi phân tích | Hạn chế cần kiểm chứng |
 |---|---|---|
-| P1 — Tổng hợp yêu cầu thành checklist | Phạm vi có thể giới hạn vào một bài; nguồn và đầu ra dễ đối chiếu; đo được công đọc, chép và review. | Người dùng thực tế chỉ dùng một LMS đã có danh sách đầy đủ hoặc template thủ công đã đủ nhanh. |
-| P4 — Nhiệm vụ sau họp | Có điểm bàn giao và người xác nhận; dễ thử mẫu ghi họp không AI. | Vấn đề chính là không thực hiện cam kết, không phải tổng hợp thông tin. |
-| P7 — Tìm giải thích cũ | Có thể xây tập câu hỏi và câu trả lời có nguồn để so sánh. | Nguồn không truy cập được hoặc FAQ đã giải quyết phần lớn nhu cầu. |
+| F1 — Không nhớ lúc cất | Bám vào yêu cầu đầu tiên; có thể đo đúng/sai của log và thời gian tra cứu | Nhãn giấy có thể đã giải quyết đủ |
+| F2 — Không nhớ lúc mở | Làm rõ mốc người dùng thực sự cần, tránh hệ thống ghi đúng sự kiện nhưng sai ý nghĩa | Cảm biến hiện diện không quan sát trực tiếp việc mở |
+| F6 — Công nhập app quá nhiều | Quyết định cảm biến hoặc AI có tạo lợi ích sử dụng hay không | Xác nhận của FreshBox có thể cũng gây phiền |
 
-## 4. Bảng chấm sau khi trình bày
+**Candidate dùng cho bản phân tích:** F1; F2 và F6 là hai vấn đề liên quan phải xét trong thiết kế.
 
-Chấm 1–5 cho mỗi tiêu chí, tổng tối đa 35; mọi điểm cần lý do hoặc bằng chứng. Chưa điền điểm vì chưa có quan sát người dùng và thảo luận thật.
+**Lý do đề xuất:** có thể giới hạn vào một vùng, một vật phẩm tại mỗi thời điểm; dễ đối chiếu sự kiện với quan sát; có phương án nhãn giấy/app làm đối chứng. Chưa khẳng định đây là lựa chọn được cả nhóm chấm điểm thông qua.
 
-| Candidate | Actor rõ | Workflow rõ | Có bằng chứng về khó khăn | Impact đo được | Phạm vi vừa lab | So sánh R/W/A được | Nhóm hiểu bối cảnh | Tổng |
+## Nhật ký hoạt động nhóm cần bổ sung
+
+Nhóm theo đề bài có 3–4 người, mỗi người mang top 3 candidates. Ba hướng trên chỉ là phân tích từ concept chung, chưa thay cho 9–12 candidates ban đầu của cả nhóm.
+
+| Người trình bày | Top 3 thực tế | Câu hỏi/challenge đã nhận | Thay đổi sau thảo luận |
+|---|---|---|---|
+| [THÀNH VIÊN 1] | | | |
+| [THÀNH VIÊN 2] | | | |
+| [THÀNH VIÊN 3] | | | |
+| [THÀNH VIÊN 4 NẾU CÓ] | | | |
+
+| Candidate | Actor rõ | Workflow rõ | Pain có bằng chứng | Impact đo được | Vừa lab | So sánh R/W/A | Nhóm hiểu bối cảnh | Tổng /35 |
 |---|---|---|---|---|---|---|---|---|
-| [CANDIDATE A] | | | | | | | | |
-| [CANDIDATE B] | | | | | | | | |
-| [CANDIDATE C] | | | | | | | | |
+| [ĐIỀN SAU THẢO LUẬN] | | | | | | | | |
 
-## 5. Vấn đề dùng để viết bản nháp
+Mỗi tiêu chí chấm 1–5, có lý do; chưa điền điểm khi chưa có thảo luận thật.
 
-**P1 — Học viên tổng hợp yêu cầu bài tập từ nhiều nguồn thành checklist có dẫn nguồn và hạn nộp đã xác nhận.**
-
-Lý do chọn tạm: có thể thử trên văn bản của một bài tập, giới hạn đầu ra rõ và có phương án đối chứng không AI. Chưa chọn Agent vì bản nháp chỉ cần chuỗi bước cố định và một lần người dùng duyệt kết quả.
-
-P4 và P7 được giữ làm phương án thay thế nếu kiểm chứng cho thấy P1 không phải khó khăn thật. Không kết luận hai vấn đề này kém giá trị hơn khi chưa có dữ liệu.
-
-## 6. Quyết định của nhóm sau thảo luận
-
-- Thời gian và người tham gia: [CẦN NHÓM ĐIỀN].
-- Vấn đề nhóm chọn: [CẦN NHÓM ĐIỀN].
-- Lý do chọn và bằng chứng: [CẦN NHÓM ĐIỀN].
-- Lý do không chọn các vấn đề còn lại: [CẦN NHÓM ĐIỀN].
-- Ý kiến khác nhau và cách giải quyết: [CẦN NHÓM ĐIỀN].
-- Người ghi biên bản và link ghi chú: [CẦN NHÓM ĐIỀN].
-
-Nếu chưa có nhóm, giữ trạng thái chưa thực hiện và bổ sung sau; bản phân tích một người không tự động đáp ứng yêu cầu hoạt động nhóm.
+**Cần nhóm xác nhận:** thành viên, phân công, lý do chọn/loại candidates, bất đồng nếu có, người ghi biên bản và quyết định cuối.

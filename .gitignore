@@ -1,0 +1,11 @@
+# Generated archives are delivery copies; source documents belong in Git.
+*.zip
+
+# Local publishing tools and temporary files.
+.submission-tools/
+*.tmp
+
+# Operating system files.
+Thumbs.db
+Desktop.ini
+.DS_Store
